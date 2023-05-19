@@ -1,0 +1,17 @@
+.table>:not(caption)>*>* {
+    border-bottom-width:0 !important;
+}
+.btn-smilt {
+    padding: 0 5px !important;
+    border-radius: 30px !important;
+    margin: 0 0 10px 0 !important;
+    font-size: 10px !important;
+    line-height: 1rem !important;
+}
+.rubles {
+    text-align: right;
+}
+.rubles>* {
+    font-size: 36px;
+    font-weight: bold;
+}

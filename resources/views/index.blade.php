@@ -14,12 +14,18 @@
         <link href="assets/images/logo-icon1.ico" rel="shortcut icon">
 
         <!-- Css -->
+        <link rel="stylesheet" href="assets/css/gp-css.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+
         <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
         <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
         <!-- Main Css -->
         <link href="assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
         <link rel="stylesheet" href="assets/css/icons.css" />
         <link rel="stylesheet" href="assets/css/tailwind.css" />
+
+
     </head>
 
     <body class="font-rubik text-base text-black dark:text-white dark:bg-slate-900">
@@ -97,9 +103,6 @@
                             <a class="nav-link" href="#team">Команда</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#blog">Блог</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#contact">Контакты</a>
                         </li>
                     </ul>
@@ -159,12 +162,12 @@
             <div class="absolute inset-0 bg-black opacity-80"></div>
             <div class="container relative">
                 <div class="grid grid-cols-1 mt-12">
-                    <h4 class="text-white lg:text-5xl text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">Перегородки межкомнатные <br><span class="typewrite relative text-type-element" data-period="2000" data-type='[ "Сделаем быстро", "Качественно", "Дорого", "Богато" ]'></span></h4>
+                    <h4 class="text-white lg:text-5xl text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">Перегородки межкомнатные в стиле ЛОФТ <br><span class="typewrite relative text-type-element" data-period="2000" data-type='[ "Высокое качество", "Короткие сроки", "Собственное производство" ]'></span></h4>
 
-                    <p class="text-white opacity-50 mb-0 max-w-2xl text-lg">Здесь может быть текст..</p>
+                    <p class="text-white opacity-50 mb-0 max-w-2xl text-lg">Закажите прямо сейчас!</p>
 
                     <div class="relative mt-10">
-                        <a href="" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">ХОЧУ ПЕРЕГОРОДКУ !</a>
+                        <a type="button" data-bs-toggle="modal" href="#exampleModalToggle"  class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">ХОЧУ ПЕРЕГОРОДКУ !</a>
                     </div>
                 </div>
             </div><!--end container-->
@@ -179,7 +182,10 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 pb-8 items-center">
                     <div>
                         <h6 class="text-orange-600 text-base font-medium uppercase mb-2">О НАС</h6>
-                        <h3 class="mb-4 md:text-2xl text-xl font-semibold dark:text-white md:mb-0">Город перегородок передовая компания занимающаяся межкомнатными перегородками высокого качества под заказ <br> Просто бизнес</h3>
+                        <h3 class="mb-4 md:text-2xl text-xl font-semibold dark:text-white md:mb-0">
+                            МЫ предоставляем услуги изготовления и установки перегородок ЛОФТ из алюминиевых конструкций.
+                            <br>Наша компания гарантирует безупречное качество продукции и установки, а <b>также низкие цены</b> и <b>высокий сервис</b>.
+                        </h3>
                     </div>
 
                     <div>
@@ -240,12 +246,15 @@
 
                     <div class="features p-6 shadow-xl shadow-slate-100 dark:shadow-slate-800 transition duration-500 rounded-3xl mt-8">
                         <div class="w-20 h-20 bg-orange-600/5 text-orange-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm">
-                            <i class="uil uil-flip-h"></i>
+                            <i class="uil uil-percentage"></i>
                         </div>
 
                         <div class="content mt-7">
-                            <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">Дизайн на выбор</a>
-                            <p class="text-slate-400 mt-3">Заказчик сам может выбрать дизайн будущей перегородки. </p>
+                            <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">Скидки</a>
+                            <p class="text-slate-400 mt-3">Мы предоставляем социальные скидки.
+                            Пенсионерам,
+                            Ветеранам ВОВ,
+                            Инвалидам - 5%</p>
 
                             <div class="mt-5">
                                 <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>
@@ -380,7 +389,7 @@
                     </p>
 
                     <div class="relative mt-10">
-                        <a href="" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Заказать звонок !</a>
+                        <a type="button" data-bs-toggle="modal" href="#exampleModalToggle" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Заказать звонок !</a>
                     </div>
                 </div><!--end grid-->
             </div><!--end container-->
@@ -394,7 +403,7 @@
                     <h6 class="text-orange-600 text-base font-medium uppercase mb-2">Портфолио</h6>
                     <h3 class="mb-4 md:text-2xl text-xl font-medium dark:text-white">У нас много замечательных примеров работ</h3>
 
-                    <p class="text-slate-400 dark:text-slate-300 max-w-xl mx-auto">Тут можно написать много текста Тут можно написать много текста Тут можно написать много текста Тут можно написать много текста Тут можно написать много текста </p>
+                    <p class="text-slate-400 dark:text-slate-300 max-w-xl mx-auto">Наша компания предлагает вам алюминиевые перегородки лофт, которые отличаются безупречным качеством и низкой ценой. Мы гарантируем высокий уровень сервиса и индивидуальный подход к каждому клиенту. Наши конструкции могут быть выполнены в любых конфигурациях для максимального соответствия вашим потребностям. Кроме того, мы предоставляем социальные скидки и гарантируем короткие сроки выполнения заказа. Надежность и функциональность наших перегородок лофт обеспечивают комфорт и уют в вашем офисе или доме.</p>
                 </div><!--end grid-->
 
                 <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-6 mt-12">
@@ -795,7 +804,7 @@
                                     <span class="inline-block ml-1">/ кв.метр</span>
                                 </div>
                                 <p class="mb-6 text-slate-430 dark:text-slate-300">Бюджетное решение </p>
-                                <a href="" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md w-full">Рассчитать стоимость</a>
+                                <a type="button" data-bs-toggle="modal" href="#exampleModalToggle2" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md w-full">Рассчитать стоимость</a>
                             </div>
                             <div class="border-b border-slate-200 dark:border-slate-700"></div>
                             <ul class="self-start px-8 pt-8">
@@ -832,7 +841,7 @@
                                     <span class="inline-block ml-1">/ кв.метр</span>
                                 </div>
                                 <p class="mb-6 text-slate-430 dark:text-slate-300">ЦЕНА и КАЧЕСТВО</p>
-                                <a href="" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md w-full">Рассчитать стоимость</a>
+                                <a type="button" data-bs-toggle="modal" href="#exampleModalToggle2" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md w-full">Рассчитать стоимость</a>
                             </div>
                             <div class="border-b border-slate-200 dark:border-slate-700"></div>
                             <ul class="self-start px-8 pt-8">
@@ -867,7 +876,114 @@
                                     <span class="inline-block ml-1">/ кв.метр</span>
                                 </div>
                                 <p class="mb-6 text-slate-430 dark:text-slate-300">Заказали более 100 раз</p>
-                                <a href="" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md w-full">Рассчитать стоимость</a>
+                                <a type="button" data-bs-toggle="modal" href="#exampleModalToggle2" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md w-full">Рассчитать стоимость</a>
+
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalToggle">Обратный звонок</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+{{--                                                <h5>Заполните форму</h5>--}}
+{{--                                                <br>--}}
+{{--                                                <select class="form-select mb-3" aria-label=".form-select-lg example">--}}
+{{--                                                    <option value="1">Готов купить</option>--}}
+{{--                                                    <option value="2">Просто интересуюсь</option>--}}
+{{--                                                    <option value="3">Хочу стать партнером</option>--}}
+{{--                                                </select>--}}
+                                                <div class="row mb-3">
+                                                    <div class="form-group col-md-12 col-sm-6">
+                                                            <span class="badge badge-warning">Ваше имя</span>
+                                                        <input type="text" name="name" class="form-control" id="name"  placeholder="Имя"/>
+                                                    </div>
+                                                    <div class="form-group col-md-12 col-sm-6">
+                                                            <span class="badge badge-warning">Номер телефона</span>
+                                                        <input type="number" name="phone" id="phone" class="form-control" placeholder="8 924 000 00 00" />
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            <div class="modal-footer">
+                                                <button
+                                                    class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md"
+                                                    data-bs-target="#exampleModalToggle2"
+                                                    data-bs-toggle="modal">
+                                                    Отправить
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="exampleModalToggleLabel2"><b>Калькулятор цены</b></h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <style>
+                                                    .badge.badge-warning {
+                                                        color: #1b1e21;
+                                                    }
+                                                </style>
+                                                <form>
+                                                    <select id="format" class="form-select form-select mb-12" aria-label=".form-select example">
+                                                        <option value="1">Деревянная</option>
+                                                        <option value="2">Алюминиевая</option>
+                                                        <option value="2.5" selected>В стиле LOFT</option>
+                                                    </select>
+                                                    <br>
+                                                    <div class="row mb-3">
+                                                        <div class="form-group col-md-6 col-sm-6">
+                                                            <span class="badge badge-warning">Высота (см)
+                                                                <a role="button" class="btn btn-secondary btn-smilt popover-test" title="Высота перегородки" data-bs-content="Высота перегородки она же высота потолка. Обычно это около 250см." data-bs-toggle="popover">?</a>
+                                                            </span>
+                                                            <input type="number" name="date" class="form-control" id="weight" required="" placeholder="250" required=""/>
+                                                        </div>
+                                                        <div class="form-group col-md-6 col-sm-6">
+                                                            <span class="badge badge-warning">Ширина (см)
+                                                                <a role="button" class="btn btn-secondary btn-smilt popover-test" title="Ширина перегородки" data-bs-content="Ширина перегородки определяетя шириной проема в который она встанет от края до края. Обычно это ширина комнаты." data-bs-toggle="popover">?</a>
+                                                            </span>
+                                                            <input type="number" name="adress" id="height" class="form-control" placeholder="400" required=""/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="custom-control custom-checkbox d-flex justify-content-center mb-12">
+                                                        <div class="form-check col-md-12" style="visibility: visible;">
+                                                            <input type="checkbox" id="load" name="mess" class="form-check-input" checked/>
+                                                            <label class="form-check-label" for="load">Подвижная перегородка </label>
+                                                            <a role="button" class="btn btn-secondary btn-smilt popover-test" title="Подвижность" data-bs-content="Подвижная перегородка подвешивается к потолку и ходит по рельсам. Перегородка не имеет порогов! Стационарная же перегородка неподвижна." data-bs-toggle="popover">?</a>
+                                                        </div>
+
+                                                    </div>
+                                                    <br>
+                                                    <br>
+
+                                                    <div class="row col-12 mb-12">
+                                                        <div class="rubles">
+                                                            <span id="out">0.0</span>
+                                                            <span class="rub">₽</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-12">
+
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" name="adress" id="btn" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md" value="Считать"> Посчитать</button>
+                                                <button class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Оставить заявку</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Modal -->
+
                             </div>
                             <div class="border-b border-slate-200 dark:border-slate-700"></div>
                             <ul class="self-start px-8 pt-8">
@@ -1089,6 +1205,9 @@
         </section><!--end section-->
         <!-- End -->
 
+
+
+
         <!-- Start Footer -->
         <footer class="py-8 bg-slate-800 dark:bg-gray-900">
             <div class="container">
@@ -1101,7 +1220,7 @@
 
                     <div class="md:col-span-6 md:mt-0 mt-8">
                         <div class="text-center">
-                            <p class="text-gray-400">© <script>document.write(new Date().getFullYear())</script> Город перегородок.ру при поддержке: <i class="mdi mdi-heart text-orange-700"></i><a href="gorod-peregorodok.ru/" target="_blank" class="text-reset">МаркетNet</a></p>
+                            <p class="text-gray-400">© <script>document.write(new Date().getFullYear())</script> Город перегородок.ру при поддержке: <i class="mdi mdi-heart text-orange-700"></i><a href="/" target="_blank" class="text-reset">МаркетNet</a></p>
                         </div>
                     </div>
 
@@ -1116,6 +1235,37 @@
                 </div><!--end row-->
             </div><!--end container-->
         </footer><!--end footer-->
+
+
+
+
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
         <!-- End Footer -->
 
         <!-- Back to top -->
@@ -1133,15 +1283,81 @@
                 </label>
             </span>
         </div>
+
+
+
+
+
+
+{{--        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Подсказка вверху">--}}
+{{--            Подсказка вверху--}}
+{{--        </button>--}}
+{{--        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Подсказка справа">--}}
+{{--            Подсказка справа--}}
+{{--        </button>--}}
+{{--        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Подсказка внизу">--}}
+{{--            Подсказка внизу--}}
+{{--        </button>--}}
+{{--        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="Подсказка слева">--}}
+{{--            Подсказка слева--}}
+{{--        </button>--}}
+
+
+
         <!-- Switcher -->
 
-        <!-- JAVASCRIPTS -->
-        <script src="assets/libs/gumshoejs/gumshoe.polyfills.min.js"></script>
+        <!-- JAVASCRIPTS
+        <script src="assets/libs/gumshoejs/gumshoe.polyfills.min.js"></script>-->
         <script src="assets/libs/tobii/js/tobii.min.js"></script>
         <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
         <script src="assets/libs/feather-icons/feather.min.js"></script>
         <script src="assets/js/plugins.init.js"></script>
         <script src="assets/js/app.js"></script>
+
+        <script src="assets/js/bootstrap.bundle.js"></script>
+        <script type="text/javascript">
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl)
+            })
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl)
+            })
+        </script>
+        <script>
+            let btn = document.querySelector('#btn'),
+                format = document.querySelector('#format'),
+                out = document.querySelector('#out'),
+                weight = document.querySelector('#weight'),
+                height = document.querySelector('#height'),
+                load = document.querySelector('#load'),
+                del = document.querySelector('#del'),
+                frag = document.querySelector('#frag'),
+                range = document.querySelector('#range'),
+                kg = 5.5,
+                kub = 3500,
+                km = 2;
+            // range slider
+
+            // Basic function
+            btn.onclick = function(){
+                if (weight.value != '' && height.value != '') {
+                    if (load.checked){
+                        load.value = 1.5; }
+                    else
+                    {
+                        load.value = 1;
+                    }
+
+                    let sum = ((weight.value * height.value)/10000 * kub) * format.value * Number(load.value);
+                    out.innerHTML = new Intl.NumberFormat('ru-RU').format(Math.round(sum));
+                }else{
+                    alert('Введите ширину и высоту перегородки');
+                }
+            }
+        </script>
+
         <!-- JAVASCRIPTS -->
     </body>
 </html>
