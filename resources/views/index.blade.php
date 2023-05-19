@@ -15,7 +15,7 @@
 
         <!-- Css -->
         <link rel="stylesheet" href="assets/css/gp-css.css">
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
 
         <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
@@ -1240,12 +1240,12 @@
 
 
 
-        <!-- Button trigger modal -->
+        <!-- Button trigger modal
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Launch demo modal
         </button>
 
-        <!-- Modal -->
+
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -1263,7 +1263,7 @@
                 </div>
             </div>
         </div>
-
+        -->
 
 
         <!-- End Footer -->
