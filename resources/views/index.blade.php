@@ -59,7 +59,7 @@
                     <!-- Navbar Button -->
                     <ul class="list-none menu-social mb-0 ps-lg-4 ms-2">
                         <li class="inline">
-                            <a type="button" data-bs-toggle="modal" href="#exampleModalToggle2" class="btn-calc" > калькулятор
+                            <a type="button" data-bs-toggle="modal" href="#exampleModalToggle2" class="btn-calc" > <span class="calc-btn-m">калькулятор</span>
                                 <span class="login-btn-primary"><span class="btn btn-sm btn-icon rounded-full bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white"><i class="uil uil-calculator"></i></span></span>
                                     <span class="login-btn-light"><span class="btn btn-sm btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><i class="uil uil-calculator"></i></span></span>
                             </a>

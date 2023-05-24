@@ -34,6 +34,20 @@ section>div.container.relative {
 .clent-modal-btn {
     color: #fd7e14;
 }
+@media (max-width: 440px) {
+    .calc-btn-m {
+        display: none;
+    }
+    .btn-calc {
+        padding-left:0;
+    }
+    .btn-calc>span {
+        margin-left:0;
+    }
+
+
+}
+
 
 
 
