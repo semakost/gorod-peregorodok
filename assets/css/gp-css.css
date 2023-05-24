@@ -15,3 +15,69 @@
     font-size: 36px;
     font-weight: bold;
 }
+section>div.container.relative {
+    border-top: 0;
+}
+.btn-calc {
+    background-color: #ea580c;
+    padding-left: 17px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+.btn-calc:hover {
+    background-color: #fd7e14;
+    color: #ffffff;
+}
+.btn-calc>span {
+    margin-left:5px;
+}
+.clent-modal-btn {
+    color: #fd7e14;
+}
+
+
+
+
+/*video*/
+
+video.video {
+    position: absolute;
+    top: 0;
+    width:100%;
+}
+@media (min-width: 540px){
+    video.video{
+        top: 0;
+    }
+}
+@media (min-width: 640px){
+    video.video{
+        top: -50px;
+    }
+}
+@media (min-width: 768px){
+    video.video{
+        top: -250px;
+    }
+}
+@media (min-width: 992px){
+    video.video{
+        top: -350px;
+    }
+}
+@media (min-width: 1024px){
+    video.video{
+        top: -500px;
+    }
+}
+@media (min-width: 1280px){
+    video.video{
+        top: -1200px;
+    }
+}
+@media (min-width: 1536px){
+    video.video{
+        top: -1500px;
+    }
+}
+/*video end*/

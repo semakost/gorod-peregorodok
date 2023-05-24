@@ -59,13 +59,13 @@
                     <!-- Navbar Button -->
                     <ul class="list-none menu-social mb-0 ps-lg-4 ms-2">
                         <li class="inline">
-                            <a href="">
-                                <span class="login-btn-primary"><span class="btn btn-sm btn-icon rounded-full bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white"><i class="uil uil-chat"></i></span></span>
-                                <span class="login-btn-light"><span class="btn btn-sm btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><i class="uil uil-chat"></i></span></span>
+                            <a type="button" data-bs-toggle="modal" href="#exampleModalToggle2" class="btn-calc" > калькулятор
+                                <span class="login-btn-primary"><span class="btn btn-sm btn-icon rounded-full bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white"><i class="uil uil-calculator"></i></span></span>
+                                    <span class="login-btn-light"><span class="btn btn-sm btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><i class="uil uil-calculator"></i></span></span>
                             </a>
                         </li>
                         <li class="inline">
-                            <a href="">
+                            <a href="tel:+79247656508">
                                 <span class="login-btn-primary"><span class="btn btn-sm btn-icon rounded-full bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white"><i class="uil uil-phone"></i></span></span>
                                 <span class="login-btn-light"><span class="btn btn-sm btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><i class="uil uil-phone"></i></span></span>
                             </a>
@@ -114,55 +114,15 @@
         <!-- Hero Start -->
         <section class="py-36 lg:py-64 w-full table relative" style="overflow: hidden !important;" id="home">
             <video class="video" loop="loop" autoplay="" muted="">
-                <style>
-                    video.video {
-                        position: absolute;
-                        top: 0;
-                        width:100%;
-                    }
-                    @media (min-width: 540px){
-                        video.video{
-                            top: 0;
-                        }
-                    }
-                    @media (min-width: 640px){
-                        video.video{
-                            top: -50px;
-                        }
-                    }
-                    @media (min-width: 768px){
-                        video.video{
-                            top: -250px;
-                        }
-                    }
-                    @media (min-width: 992px){
-                        video.video{
-                            top: -350px;
-                        }
-                    }
-                    @media (min-width: 1024px){
-                        video.video{
-                            top: -500px;
-                        }
-                    }
-                    @media (min-width: 1280px){
-                        video.video{
-                            top: -1200px;
-                        }
-                    }
-                    @media (min-width: 1536px){
-                        video.video{
-                            top: -1500px;
-                        }
-                    }
-                </style>
-                <source src="assets/images/bg/IMG_5349.MP4" type="video/mp4" />
+               <source src="assets/images/bg/IMG_5349.MP4" type="video/mp4" />
 
             </video>
             <div class="absolute inset-0 bg-black opacity-80"></div>
             <div class="container relative">
                 <div class="grid grid-cols-1 mt-12">
-                    <h4 class="text-white lg:text-5xl text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">Перегородки межкомнатные в стиле ЛОФТ <br><span class="typewrite relative text-type-element" data-period="2000" data-type='[ "Высокое качество", "Короткие сроки", "Собственное производство" ]'></span></h4>
+                    <h4 class="text-white lg:text-5xl text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">Перегородки межкомнатные в стиле Лофт:<br>
+                        <span class="typewrite relative text-type-element" data-period="2000" data-type='[ "Высокое качество", "Короткие сроки", "Собственное производство" ]'></span>
+                    </h4>
 
                     <p class="text-white opacity-50 mb-0 max-w-2xl text-lg">Закажите прямо сейчас!</p>
 
@@ -193,24 +153,24 @@
                             <br><br>
                             Будь то квартира или офис, а открытое полное пространство всегда создает максимальную иллюзию света и простора.
                             <br><br>
-                            Данные элементы интерьера набирают сегодня особой популярности, благодаря своей изящной конструкции, элегантному виду и эксплуатации. Стеклянные перегородки можно устанавливать в любом интерьере, опираясь на создание желаемого стиля.
+                            Данные элементы интерьера набирают сегодня особую популярность, благодаря своей изящной конструкции, элегантному виду и эксплуатации. Стеклянные перегородки можно устанавливать в любом интерьере, опираясь на создание желаемого стиля.
                         </p>
                     </div>
                 </div><!--end grid-->
 
                 <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6">
-                    <div class="features p-6 hover:shadow-xl hover:shadow-slate-100 dark:hover:shadow-slate-800 transition duration-500 rounded-3xl mt-8">
+                    <div class="features p-6 shadow-xl shadow-slate-100 dark:shadow-slate-800 transition duration-500 rounded-3xl mt-8">
                         <div class="w-20 h-20 bg-orange-600/5 text-orange-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm">
                             <i class="uil uil-grids"></i>
                         </div>
 
                         <div class="content mt-7">
                             <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">Главное преимущество</a>
-                            <p class="text-slate-400 mt-3">это отсутствие порогов (подвесная система) Удобно и безопасно.</p>
+                            <p class="text-slate-400 mt-3">Перегородкой можно разделить гостиную и кухню, отгородить техническую комнату, гардероб и не придется возводить еще одну стену и заниматься перпланировкой квартиры.</p>
 
-                            <div class="mt-5">
-                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>
-                            </div>
+{{--                            <div class="mt-5">--}}
+{{--                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>--}}
+{{--                            </div>--}}
                         </div>
                     </div>
 
@@ -221,26 +181,26 @@
 
                         <div class="content mt-7">
                             <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">Гибкость</a>
-                            <p class="text-slate-400 mt-3">Технология изготовления позволяет получать изделия разных форм и конфигураций. </p>
+                            <p class="text-slate-400 mt-3">Конструкции изготавливаются из из различных материалов, все зависит от бюджета и взглядов клиента на дизайн. </p>
 
-                            <div class="mt-5">
-                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>
-                            </div>
+{{--                            <div class="mt-5">--}}
+{{--                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>--}}
+{{--                            </div>--}}
                         </div>
                     </div>
 
-                    <div class="features p-6 hover:shadow-xl hover:shadow-slate-100 dark:hover:shadow-slate-800 transition duration-500 rounded-3xl mt-8">
+                    <div class="features p-6 shadow-xl shadow-slate-100 dark:shadow-slate-800 transition duration-500 rounded-3xl mt-8">
                         <div class="w-20 h-20 bg-orange-600/5 text-orange-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm">
                             <i class="uil uil-flower"></i>
                         </div>
 
                         <div class="content mt-7">
-                            <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">Цвет на быбор!</a>
-                            <p class="text-slate-400 mt-3">Алюминиевый профиль позволяет создавать более легкие и прозрачные конструкции, не утяжеляющие пространство помещения</p>
+                            <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">Цвет на выбор!</a>
+                            <p class="text-slate-400 mt-3">заказчик выбирает цвет профиля по каталогу RAL</p>
 
-                            <div class="mt-5">
-                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>
-                            </div>
+{{--                            <div class="mt-5">--}}
+{{--                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>--}}
+{{--                            </div>--}}
                         </div>
                     </div>
 
@@ -251,29 +211,26 @@
 
                         <div class="content mt-7">
                             <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">Скидки</a>
-                            <p class="text-slate-400 mt-3">Мы предоставляем социальные скидки.
-                            Пенсионерам,
-                            Ветеранам ВОВ,
-                            Инвалидам - 5%</p>
+                            <p class="text-slate-400 mt-3">Скидка 5% предоставляется Ветеранам ВОВ, пенсионерам, инвалидам и многодетным семьям.</p>
 
-                            <div class="mt-5">
-                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>
-                            </div>
+{{--                            <div class="mt-5">--}}
+{{--                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>--}}
+{{--                            </div>--}}
                         </div>
                     </div>
 
-                    <div class="features p-6 hover:shadow-xl hover:shadow-slate-100 dark:hover:shadow-slate-800 transition duration-500 rounded-3xl mt-8">
+                    <div class="features p-6 shadow-xl shadow-slate-100 dark:shadow-slate-800 transition duration-500 rounded-3xl mt-8">
                         <div class="w-20 h-20 bg-orange-600/5 text-orange-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm">
                             <i class="uil uil-adjust-circle"></i>
                         </div>
 
                         <div class="content mt-7">
-                            <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">Пространство</a>
+                            <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">Управляй пространством</a>
                             <p class="text-slate-400 mt-3">Установка конструкций из стекла позволяет расширить видимое пространство комнаты. </p>
 
-                            <div class="mt-5">
-                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>
-                            </div>
+{{--                            <div class="mt-5">--}}
+{{--                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>--}}
+{{--                            </div>--}}
                         </div>
                     </div>
 
@@ -283,12 +240,14 @@
                         </div>
 
                         <div class="content mt-7">
-                            <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">В стиле LOFT</a>
-                            <p class="text-slate-400 mt-3">Перегородки loft отличаются оригинальным внешним видом и прекрасно вписываются в интерьеры любых помещений, создавая при этом особую атмосферу.</p>
+                            <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">Наше производство</a>
+                            <p class="text-slate-400 mt-3">
+                                Благодаря собственному производству, мы можем в короткие сроки изготовить изделия Вашей мечты и <b>даем гарантию 1 год!</b>
+                            </p>
 
-                            <div class="mt-5">
-                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>
-                            </div>
+{{--                            <div class="mt-5">--}}
+{{--                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>--}}
+{{--                            </div>--}}
                         </div>
                     </div>
                 </div><!--end grid-->
@@ -358,7 +317,7 @@
                                 <div class="md:order-1 order-2">
                                     <div class="event event-description-left float-left text-right md:mr-7">
                                         <h5 class="text-lg dark:text-white mb-1 font-medium">Монтаж</h5>
-                                        <p class="timeline-subtitle mt-3 mb-0 text-slate-400">За короткое время после согласования монтажники вставят уже готовые блоки. Вам остается только наслаждаться результатом.</p>
+                                        <p class="timeline-subtitle mt-3 mb-0 text-slate-400">За короткое время после согласования монтажники вставят уже готовые перегородки. Вам остается только наслаждаться результатом.</p>
                                     </div>
                                 </div><!--end col-->
                                 <div class="md:order-2 order-1">
@@ -388,7 +347,7 @@
                         Мы перезвоним Вам и раскажем как быстро вы сможете получить перегородку мечты.
                     </p>
 
-                    <div class="relative mt-10">
+                    <div class="">
                         <a type="button" data-bs-toggle="modal" href="#exampleModalToggle" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Заказать звонок !</a>
                     </div>
                 </div><!--end grid-->
@@ -703,7 +662,7 @@
                     </p>
 
                     <div class="relative mt-10">
-                        <a href="" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Заказать звонок !</a>
+                        <a type="button" data-bs-toggle="modal" href="#exampleModalToggle" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Заказать звонок !</a>
                     </div>
                 </div><!--end grid-->
             </div><!--end container-->
@@ -726,21 +685,9 @@
                             <div class="lg:flex p-6 lg:p-0 relative rounded-md shadow shadow-slate-200 dark:shadow-slate-700 bg-white dark:bg-black overflow-hidden m-2">
                                 <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/01.jpg" alt="" width="384" height="512">
                                 <div class="pt-6 lg:p-6 text-center lg:text-left space-y-4">
-                                    <p class="text-base text-slate-500 dark:text-slate-200"> " Это мой отзыв о работе с компанией Город-Перегородок " </p>
-
-                                    <div>
-                                        <span class="text-orange-600 block mb-1">Александр</span>
-                                        <span class="text-slate-400 text-sm dark:text-white/60 block">Перегородка в стиле LOFT</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tiny-slide">
-                            <div class="lg:flex p-6 lg:p-0 relative rounded-md shadow shadow-slate-200 dark:shadow-slate-700 bg-white dark:bg-black overflow-hidden m-2">
-                                <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/02.jpg" alt="" width="384" height="512">
-                                <div class="pt-6 lg:p-6 text-center lg:text-left space-y-4">
-                                    <p class="text-base text-slate-500 dark:text-slate-200"> " Это мой отзыв о работе с компанией Город-Перегородок " </p>
-
+                                    <p class="text-base text-slate-500 dark:text-slate-200">
+                                        "Совсем недавно, до 2018 года мы..<a type="button" data-bs-toggle="modal" href="#clientModal-1" class="clent-modal-btn">посмотреть отзыв...</a>
+                                    </p>
                                     <div>
                                         <span class="text-orange-600 block mb-1">Николай</span>
                                         <span class="text-slate-400 text-sm dark:text-white/60 block">Перегородка в стиле LOFT</span>
@@ -750,12 +697,14 @@
                         </div>
                         <div class="tiny-slide">
                             <div class="lg:flex p-6 lg:p-0 relative rounded-md shadow shadow-slate-200 dark:shadow-slate-700 bg-white dark:bg-black overflow-hidden m-2">
-                                <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/03.jpg" alt="" width="384" height="512">
+                                <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/02.jpg" alt="" width="384" height="512">
                                 <div class="pt-6 lg:p-6 text-center lg:text-left space-y-4">
-                                    <p class="text-base text-slate-500 dark:text-slate-200"> " Это мой отзыв о работе с компанией Город-Перегородок " </p>
+                                    <p class="text-base text-slate-500 dark:text-slate-200">
+                                        "Мы с женой обратились в фирму «Город перегородок»..<a type="button" data-bs-toggle="modal" href="#clientModal-2" class="clent-modal-btn">посмотреть отзыв...</a>
+                                    </p>
 
                                     <div>
-                                        <span class="text-orange-600 block mb-1">Анна</span>
+                                        <span class="text-orange-600 block mb-1">Анжелика - Дизайнер</span>
                                         <span class="text-slate-400 text-sm dark:text-white/60 block">Перегородка в стиле LOFT</span>
                                     </div>
                                 </div>
@@ -765,10 +714,27 @@
                             <div class="lg:flex p-6 lg:p-0 relative rounded-md shadow shadow-slate-200 dark:shadow-slate-700 bg-white dark:bg-black overflow-hidden m-2">
                                 <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/04.jpg" alt="" width="384" height="512">
                                 <div class="pt-6 lg:p-6 text-center lg:text-left space-y-4">
-                                    <p class="text-base text-slate-500 dark:text-slate-200"> " Это мой отзыв о работе с компанией Город-Перегородок " </p>
+                                    <p class="text-base text-slate-500 dark:text-slate-200">
+                                        "Мы купили квартиру в новостройке с автономным газовым котлом..<a type="button" data-bs-toggle="modal" href="#clientModal-4" class="clent-modal-btn">посмотреть отзыв...</a>
+                                    </p>
 
                                     <div>
-                                        <span class="text-orange-600 block mb-1">Василий</span>
+                                        <span class="text-orange-600 block mb-1">Пётр</span>
+                                        <span class="text-slate-400 text-sm dark:text-white/60 block">Перегородка в стиле LOFT</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tiny-slide">
+                            <div class="lg:flex p-6 lg:p-0 relative rounded-md shadow shadow-slate-200 dark:shadow-slate-700 bg-white dark:bg-black overflow-hidden m-2">
+                                <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/03.jpg" alt="" width="384" height="512">
+                                <div class="pt-6 lg:p-6 text-center lg:text-left space-y-4">
+                                    <p class="text-base text-slate-500 dark:text-slate-200">
+                                        "Хочу рассказать вам о моем впечатлении от перегородки лофт..<a type="button" data-bs-toggle="modal" href="#clientModal-4" class="clent-modal-btn">посмотреть отзыв...</a>
+                                    </p>
+
+                                    <div>
+                                        <span class="text-orange-600 block mb-1">Анна</span>
                                         <span class="text-slate-400 text-sm dark:text-white/60 block">Перегородка в стиле LOFT</span>
                                     </div>
                                 </div>
@@ -793,51 +759,17 @@
                 </div><!--end grid-->
 
                 <div class="flex flex-wrap">
-                    <div class="w-full md:w-1/2 lg:w-1/3 px-0 md:px-3 mt-8">
-                        <div
-                            class="flex flex-col pt-8 pb-8 bg-zinc-50 hover:bg-white dark:bg-gray-800 dark:hover:bg-black rounded-md shadow shadow-slate-200 dark:shadow-slate-700 transition duration-500">
-                            <div class="px-8 pb-8">
-                                <h3 class="mb-6 text-lg md:text-xl font-medium dark:text-white">Деревянная</h3>
-                                <div class="mb-6 dark:text-white/70">
-                                    <span class="relative -top-5 text-2xl">₽</span>
-                                    <span class="text-5xl font-semibold dark:text-white">3 000</span>
-                                    <span class="inline-block ml-1">/ кв.метр</span>
-                                </div>
-                                <p class="mb-6 text-slate-430 dark:text-slate-300">Бюджетное решение </p>
-                                <a type="button" data-bs-toggle="modal" href="#exampleModalToggle2" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md w-full">Рассчитать стоимость</a>
-                            </div>
-                            <div class="border-b border-slate-200 dark:border-slate-700"></div>
-                            <ul class="self-start px-8 pt-8">
-                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
-                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
-                                    <span>Преимущестово 1</span>
-                                </li>
-                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
-                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
-                                    <span>Преимущестово 2</span>
-                                </li>
-                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
-                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
-                                    <span>Преимущестово 3</span>
-                                </li>
-                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
-                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
-                                    <span>Преимущестово 4</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
 
                     <div class="w-full md:w-1/2 lg:w-1/3 px-0 md:px-3 mt-8">
                         <div
                             class="flex flex-col pt-8 pb-8 bg-zinc-50 hover:bg-white dark:bg-gray-800 dark:hover:bg-black rounded-md shadow shadow-slate-200 dark:shadow-slate-700 transition duration-500">
                             <div class="px-8 pb-8">
                                 <div class="flex flex-wrap items-center justify-between">
-                                    <h3 class="mb-6 text-lg md:text-xl font-medium dark:text-white">Алюминиевая</h3>
+                                    <h3 class="mb-6 text-lg md:text-xl font-medium dark:text-white">Стационарная</h3>
                                 </div>
                                 <div class="mb-6 dark:text-white/70">
                                     <span class="relative -top-5 text-2xl">₽</span>
-                                    <span class="text-5xl font-semibold dark:text-white">8 000</span>
+                                    <span class="text-5xl font-semibold dark:text-white">от 9 000</span>
                                     <span class="inline-block ml-1">/ кв.метр</span>
                                 </div>
                                 <p class="mb-6 text-slate-430 dark:text-slate-300">ЦЕНА и КАЧЕСТВО</p>
@@ -869,10 +801,10 @@
                         <div
                             class="flex flex-col pt-8 pb-8 bg-zinc-50 hover:bg-white dark:bg-gray-800 dark:hover:bg-black rounded-md shadow shadow-slate-200 dark:shadow-slate-700 transition duration-500">
                             <div class="px-8 pb-8">
-                                <h3 class="mb-6 text-lg md:text-xl font-medium dark:text-white">В стиле LOFT</h3>
+                                <h3 class="mb-6 text-lg md:text-xl font-medium dark:text-white">Раздвижные</h3>
                                 <div class="mb-6 dark:text-white/70">
                                     <span class="relative -top-5 text-2xl">₽</span>
-                                    <span class="text-5xl font-semibold dark:text-white">12 000</span>
+                                    <span class="text-5xl font-semibold dark:text-white">от 12 000</span>
                                     <span class="inline-block ml-1">/ кв.метр</span>
                                 </div>
                                 <p class="mb-6 text-slate-430 dark:text-slate-300">Заказали более 100 раз</p>
@@ -888,13 +820,6 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-{{--                                                <h5>Заполните форму</h5>--}}
-{{--                                                <br>--}}
-{{--                                                <select class="form-select mb-3" aria-label=".form-select-lg example">--}}
-{{--                                                    <option value="1">Готов купить</option>--}}
-{{--                                                    <option value="2">Просто интересуюсь</option>--}}
-{{--                                                    <option value="3">Хочу стать партнером</option>--}}
-{{--                                                </select>--}}
                                                 <div class="row mb-3">
                                                     <div class="form-group col-md-12 col-sm-6">
                                                             <span class="badge badge-warning">Ваше имя</span>
@@ -902,10 +827,10 @@
                                                     </div>
                                                     <div class="form-group col-md-12 col-sm-6">
                                                             <span class="badge badge-warning">Номер телефона</span>
-                                                        <input type="number" name="phone" id="phone" class="form-control" placeholder="8 924 000 00 00" />
+                                                        <input type="number" name="phone" id="phone" class="form-control" placeholder="8 800 550 15 88" />
                                                     </div>
                                                 </div>
-                                                </div>
+                                            </div>
                                             <div class="modal-footer">
                                                 <button
                                                     class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md"
@@ -932,9 +857,9 @@
                                                 </style>
                                                 <form>
                                                     <select id="format" class="form-select form-select mb-12" aria-label=".form-select example">
-                                                        <option value="1">Деревянная</option>
-                                                        <option value="2">Алюминиевая</option>
-                                                        <option value="2.5" selected>В стиле LOFT</option>
+                                                        <option value="9">Стационарная</option>
+                                                        <option value="12">Раздвижная</option>
+                                                        <option value="20" selected>МДФ</option>
                                                     </select>
                                                     <br>
                                                     <div class="row mb-3">
@@ -984,6 +909,41 @@
                                 </div>
                                 <!-- End Modal -->
 
+                            </div>
+                            <div class="border-b border-slate-200 dark:border-slate-700"></div>
+                            <ul class="self-start px-8 pt-8">
+                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
+                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
+                                    <span>Преимущестово 1</span>
+                                </li>
+                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
+                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
+                                    <span>Преимущестово 2</span>
+                                </li>
+                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
+                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
+                                    <span>Преимущестово 3</span>
+                                </li>
+                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
+                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
+                                    <span>Преимущестово 4</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="w-full md:w-1/2 lg:w-1/3 px-0 md:px-3 mt-8">
+                        <div
+                            class="flex flex-col pt-8 pb-8 bg-zinc-50 hover:bg-white dark:bg-gray-800 dark:hover:bg-black rounded-md shadow shadow-slate-200 dark:shadow-slate-700 transition duration-500">
+                            <div class="px-8 pb-8">
+                                <h3 class="mb-6 text-lg md:text-xl font-medium dark:text-white">МДФ</h3>
+                                <div class="mb-6 dark:text-white/70">
+                                    <span class="relative -top-5 text-2xl">₽</span>
+                                    <span class="text-5xl font-semibold dark:text-white">от 20 000</span>
+                                    <span class="inline-block ml-1">/ кв.метр</span>
+                                </div>
+                                <p class="mb-6 text-slate-430 dark:text-slate-300">Бюджетное решение </p>
+                                <a type="button" data-bs-toggle="modal" href="#exampleModalToggle2" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md w-full">Рассчитать стоимость</a>
                             </div>
                             <div class="border-b border-slate-200 dark:border-slate-700"></div>
                             <ul class="self-start px-8 pt-8">
@@ -1117,7 +1077,7 @@
                     </p>
 
                     <div class="relative mt-10">
-                        <a href="" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Заказать звонок !</a>
+                        <a type="button" data-bs-toggle="modal" href="#exampleModalToggle" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Заказать звонок !</a>
                     </div>
                 </div><!--end grid-->
             </div><!--end container-->
@@ -1129,7 +1089,7 @@
             <div class="container">
                 <div class="grid grid-cols-1 pb-8 text-center">
                     <h6 class="text-orange-600 text-base font-medium uppercase mb-2">Контакты</h6>
-                    <h3 class="mb-4 md:text-2xl text-xl font-medium dark:text-white">Оставьте заявку на оратную связь</h3>
+                    <h3 class="mb-4 md:text-2xl text-xl font-medium dark:text-white">Оставьте заявку на обратную связь</h3>
 
                     <p class="text-slate-400 dark:text-slate-300 max-w-xl mx-auto">Мы перезвоним вам в течение 5 минут</p>
                 </div><!--end grid-->
@@ -1137,43 +1097,25 @@
                 <div class="grid grid-cols-1 lg:grid-cols-12 md:grid-cols-2 mt-8 items-center gap-6">
                     <div class="lg:col-span-8">
                         <div class="p-6 rounded-md shadow bg-white dark:bg-black">
-                            <form method="post" name="myForm" id="myForm" onsubmit="return validateForm()">
-                                <p class="mb-0" id="error-msg"></p>
-                                <div id="simple-msg"></div>
-                                <div class="grid lg:grid-cols-12 lg:gap-6">
-                                    <div class="lg:col-span-6 mb-5">
-                                        <input name="name" id="name" type="text" class="form-input" placeholder="Имя :">
-                                    </div>
-
-                                    <div class="lg:col-span-6 mb-5">
-                                        <input name="email" id="email" type="email" class="form-input" placeholder="Email :">
-                                    </div><!--end col-->
-                                </div>
-
-                                <div class="grid grid-cols-1">
-                                    <div class="mb-5">
-                                        <input name="subject" id="subject" class="form-input" placeholder="Тема :">
-                                    </div>
-
-                                    <div class="mb-5">
-                                        <textarea name="comments" id="comments" class="form-input textarea h-28" placeholder="Сообщение :"></textarea>
-                                    </div>
-                                </div>
-                                <button type="submit" id="submit" name="send" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md h-11 justify-center flex items-center">Отправить</button>
-                            </form>
+                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2eadd88a1bc33bf794c1027151890187182c9d3b42a7ca6e41b6560453712f2f&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
                         </div>
                     </div>
 
                     <div class="lg:col-span-4">
                         <div class="lg:ml-8">
+                            <div class="relative mt-10">
+                                <a type="button" data-bs-toggle="modal" href="#exampleModalToggle" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Заказать звонок !</a>
+                            </div>
+                            <br>
                             <div class="flex">
+
                                 <div class="icons text-center mx-auto">
                                     <i class="uil uil-phone block rounded text-2xl dark:text-white mb-0"></i>
                                 </div>
 
                                 <div class="flex-1 ml-6">
                                     <h5 class="text-lg dark:text-white mb-2 font-medium">Телефон</h5>
-                                    <a href="tel:+152534-468-854" class="text-slate-400">+7 999 987-65-42</a>
+                                    <a href="tel:+152534-468-854" class="text-slate-400">8 800 555-15-88</a>
                                 </div>
                             </div>
 
@@ -1184,7 +1126,7 @@
 
                                 <div class="flex-1 ml-6">
                                     <h5 class="text-lg dark:text-white mb-2 font-medium">E-mail</h5>
-                                    <a href="mailto:contact@example.com" class="text-slate-400">contact@mail.ru</a>
+                                    <a href="mailto:contact@example.com" class="text-slate-400">contact@gorod-peregorodok.ru</a>
                                 </div>
                             </div>
 
@@ -1195,7 +1137,7 @@
 
                                 <div class="flex-1 ml-6">
                                     <h5 class="text-lg dark:text-white mb-2 font-medium">Адрес</h5>
-                                    <p class="text-slate-400 mb-2">Якутск, Проспект Ленина, 34, офис 56</p>
+                                    <p class="text-slate-400 mb-2">Якутск, Курашова, 30/1, офис 16</p>
                                 </div>
                             </div>
                         </div>
@@ -1228,7 +1170,7 @@
                         <ul class="list-none foot-icon md:text-right text-center">
                             <li class="inline"><a href="" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-youtube"></i></a></li>
                             <li class="inline"><a href="" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-instagram"></i></a></li>
-                            <li class="inline"><a href="" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-phone-alt"></i></a></li>
+                            <li class="inline"><a href="tel:+79247656508" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-phone-alt"></i></a></li>
                             <li class="inline"><a href="" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-chat"></i></a></li>
                         </ul><!--end icon-->
                     </div><!--end col-->
@@ -1266,14 +1208,147 @@
         -->
 
 
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggle">Обратный звонок</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row mb-3">
+                            <div class="form-group col-md-12 col-sm-6">
+                                <span class="badge badge-warning">Ваше имя</span>
+                                <input type="text" name="name" class="form-control" id="name"  placeholder="Имя"/>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-6">
+                                <span class="badge badge-warning">Номер телефона</span>
+                                <input type="number" name="phone" id="phone" class="form-control" placeholder="8 924 000 00 00" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md"
+                            data-bs-target="#exampleModalToggle2"
+                            data-bs-toggle="modal">
+                            Отправить
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal -->
+
+
+        <!-- Modal client-->
+        <div class="modal fade" id="clientModal-1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggle">Отзыв</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-base text-slate-500 dark:text-slate-200"> "Мы с женой обратились в фирму «Город перегородок» и я ни разу не пожалел об этом.
+                        </p><p class="text-base text-slate-500 dark:text-slate-200">У нас разнополые дети, а квартира 2 – х комнатная, на трешку денег не хватает, да и школа рядом, живем в центре, переезжать не хочется. Так вот, оформили заявку на замер, пришел замерщик, все замерил, подробно все рассказал (как будет крепиться, какое стекло можно выбрать и тд.)
+                        </p><p class="text-base text-slate-500 dark:text-slate-200">И эту комнату мы разделили пополам, теперь у детей две разные комнаты, у дочки игрушки и куколки и своя кроватка, а у сына письменный стол, компьютер и кровать. Старший если учит уроки закрывается и ему никто не мешает.
+                        </p><p class="text-base text-slate-500 dark:text-slate-200">Короче, очень много плюсов, минусов нет, всем рекомендую"
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- End Modal -->
+        <!-- Modal client 2-->
+        <div class="modal fade" id="clientModal-2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggle">Отзыв</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-base text-slate-500 dark:text-slate-200"> "Мы купили квартиру в новостройке с автономным газовым котлом, сделали ремонт в квартире, но при заселении возник вопрос со стороны газовиков.
+                        </p><p class="text-base text-slate-500 dark:text-slate-200">Кухню с гостиной мы объединили (по проекту кухня была отделена стеной из полублоков (мы ее снесли при ремонте) чтобы расширить кухню и заодно совместить с гостиной.
+                        </p><p class="text-base text-slate-500 dark:text-slate-200">Газовик выписал предписание устранить недочет и построить стену, так как котел должен быть в отдельной комнате. И я сразу представил себе маленькую кухню с бетонной стеной. Знакомые мне посоветовали отгородить кухню легкой стеклянной перегородкой. Обратился в «Город перегородок», сразу позвонил им и вызвал замерщика – консультанта.
+                        </p><p class="text-base text-slate-500 dark:text-slate-200">Замерщик все замерил и уже через неделю, у нас стоит красивая перегородка.
+                        </p><p class="text-base text-slate-500 dark:text-slate-200">Ни разу не пожалел, что выбрал именно «Город перегородок». Так как, перегородкой можно закрыть кухню при готовке, запахи не распространяются по всей квартире,  а также,  открыть если соберется много гостей. Створки у нас каскадом и собираются в парковочном месте в одну пачку, очень широкий проем получается!
+                        </p><p class="text-base text-slate-500 dark:text-slate-200">Успехов ребята, вы отлично работаете!"
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- End Modal -->
+        <!-- Modal client 3-->
+        <div class="modal fade" id="clientModal-3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggle">Отзыв</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-base text-slate-500 dark:text-slate-200"> "Хочу рассказать вам о моем впечатлении от перегородки лофт.
+                        </p><p class="text-base text-slate-500 dark:text-slate-200">Купила однокомнатную квартиру 2003 года постройки.
+                        </p><p class="text-base text-slate-500 dark:text-slate-200"> И от прежних хозяев остался старый ремонт, со старой мебелью и прокуренным потолком
+                        </p><p class="text-base text-slate-500 dark:text-slate-200"> В гостиной еще была стена из гипсокартона, которая делила ее пополам
+                        </p><p class="text-base text-slate-500 dark:text-slate-200">Наняла бригаду и начала ремонт,  все разобрали и вынесли, сделали штукатурку, покраску, положили в ванной новую плитку, постелили новый ламинат, заменили окна, откосы, подоконники, установили кухню, натянули натяжной потолок, на все ушло 2 месяца.
+                        </p><p class="text-base text-slate-500 dark:text-slate-200"> Расставили бытовую технику и мебель, кровать, диван и многое другое.
+                        </p><p class="text-base text-slate-500 dark:text-slate-200">И вот я заехала!
+                        </p><p class="text-base text-slate-500 dark:text-slate-200"> И получилось так, что у меня нет отдельной комнаты для спальни. Спальня – она же была и гостиной!
+                        </p><p class="text-base text-slate-500 dark:text-slate-200"> Было очень неудобно встречать гостей, как бы и телевизор посмотреть сидя на диване хочется с подружками и опять-таки, кровать стоит. Что делать? Решила заказать перегородку, обзвонила несколько фирм, приходили замеряли и все отказывались из-за того, что у меня нет закладного бруса под моим новым натяжным потолком!!!
+                        </p><p class="text-base text-slate-500 dark:text-slate-200"> Предлагали разбирать полок, монтировать брус и заново его натягивать, а это дополнительные затраты, пыль и грязь!
+                        </p><p class="text-base text-slate-500 dark:text-slate-200"> Чудом, нашла рекламу фирмы «Город перегородок» и вызвала мастера.
+                        </p><p class="text-base text-slate-500 dark:text-slate-200">И представьте, он сказал, что можно все смонтировать не касаясь моего потолка совсем!
+                        </p><p class="text-base text-slate-500 dark:text-slate-200">Я была в шоке, а как прочность и надежность? Оказывается, у них есть запатентованная система стационарных перегородок, благодаря которой можно крепиться в стены и пол, не трогая потолка, при этом дверь подвесная и порога нет!"
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- End Modal -->
+        <!-- Modal client 4-->
+        <div class="modal fade" id="clientModal-4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggle">Отзыв</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-base text-slate-500 dark:text-slate-200"> "Совсем недавно до  2018 года мы, дизайнеры, проектировали стены и перегородки из гипсокартона, подбирая краски и обои.
+                        </p><p class="text-base text-slate-500 dark:text-slate-200">Но узнав о перегородках из стекла и алюминиевых профилей, мы решили поискать производителей. Изучив много фирм, выбрали «Город перегородок», так как у них собственное производство и они предоставляют гарантию.
+                        </p><p class="text-base text-slate-500 dark:text-slate-200"> И ВуАля! Получилась красота!
+                        </p><p class="text-base text-slate-500 dark:text-slate-200"> Пространство не нагружается, порог отсутствует, легко открывается и закрывается, естественный дневной свет легко проникает в помещение (комнату), при этом не видно кто находится за ней (если использовать матовое стекло) можно выбрать любой дизайн, даже  проектировали мы сами, а ребята воплощали в жизнь самые сложные проекты! У нас просто развязались руки!
+                        </p><p class="text-base text-slate-500 dark:text-slate-200">Мы, дизайнеры, видим только красоту и изящность, но иногда забываем о прочности, жесткости и надежности конструкции, инженеры проектировщики «Город перегородок» согласовывают все моменты до мелочей! Знают как и где крепить, умеют выслушивать наши капризы.)
+                        </p><p class="text-base text-slate-500 dark:text-slate-200"> Никакой пыли и грязи! Короткие сроки, индивидуальный подход.
+                        </p><p class="text-base text-slate-500 dark:text-slate-200"> Наши клиенты очень рады перегородкам, а мы- нашему сотрудничеству.
+                        </p><p class="text-base text-slate-500 dark:text-slate-200">Желаем успехов и процветания!"
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- End Modal -->
+
+
         <!-- End Footer -->
 
         <!-- Back to top -->
-        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 right-5 h-9 w-9 text-center bg-orange-600 text-white leading-9"><i class="uil uil-arrow-up"></i></a>
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fixed text-lg rounded-full z-10 bottom-4 left-4 h-9 w-9 text-center bg-orange-600 text-white leading-9"><i class="uil uil-arrow-up"></i></a>
         <!-- Back to top -->
 
         <!-- Switcher -->
-        <div class="fixed top-1/4 -right-1 z-3">
+        <div class="fixed hidden top-1/4 -right-1 z-3">
             <span class="relative inline-block rotate-90">
                 <input type="checkbox" class="checkbox opacity-0 absolute" id="chk" />
                 <label class="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8" for="chk">
@@ -1336,7 +1411,7 @@
                 frag = document.querySelector('#frag'),
                 range = document.querySelector('#range'),
                 kg = 5.5,
-                kub = 3500,
+                kub = 1000,
                 km = 2;
             // range slider
 
