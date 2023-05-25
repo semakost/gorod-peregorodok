@@ -4,12 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Город-Перегородок.ру</title>
-        <meta name="description" content="Responsive Tailwind CSS Template" />
+        <meta name="description" content="Сайт Город-Перегородок.ру" />
         <meta name="keywords" content="Перегородки межкомнатные, перегородки в стиле лофт, Каскадные перегородки" />
         <meta name="author" content="MarketNet" />
         <meta name="website" content="http://gorod-peregorodok.ru" />
-        <meta name="email" content="support@shreethemes.in" />
-        <meta name="version" content="1.0" />
+        <meta name="email" content="support@gorod-peregorodok.ru" />
+        <meta name="version" content="2.1" />
+        <meta name="mailru-domain" content="AfQ1FHEndNTjUClP" />
         <!-- favicon -->
         <link href="assets/images/logo-icon1.ico" rel="shortcut icon">
 
@@ -341,7 +342,7 @@
             <div class="absolute inset-0 bg-black opacity-80"></div>
             <div class="container relative">
                 <div class="grid grid-cols-1 pb-8 text-center">
-                    <h3 class="mb-6 md:text-3xl text-2xl text-white font-medium">Закажите замерку сейчас!</h3>
+                    <h3 class="mb-6 md:text-3xl text-2xl text-white font-medium">Закажите замер сейчас!</h3>
 
                     <p class="text-white opacity-50 max-w-xl mx-auto">
                         Мы перезвоним Вам и раскажем как быстро вы сможете получить перегородку мечты.
@@ -655,7 +656,7 @@
             <div class="absolute inset-0 bg-black opacity-80"></div>
             <div class="container relative">
                 <div class="grid grid-cols-1 pb-8 text-center">
-                    <h3 class="mb-6 md:text-3xl text-2xl text-white font-medium">Закажите замерку сейчас!</h3>
+                    <h3 class="mb-6 md:text-3xl text-2xl text-white font-medium">Закажите замер сейчас!</h3>
 
                     <p class="text-white opacity-50 max-w-xl mx-auto">
                         Мы перезвоним Вам и раскажем как быстро вы сможете получить перегородку мечты.
@@ -1070,7 +1071,7 @@
             <div class="absolute inset-0 bg-black opacity-80"></div>
             <div class="container relative">
                 <div class="grid grid-cols-1 pb-8 text-center">
-                    <h3 class="mb-6 md:text-3xl text-2xl text-white font-medium">Закажите замерку сейчас!</h3>
+                    <h3 class="mb-6 md:text-3xl text-2xl text-white font-medium">Закажите замер сейчас!</h3>
 
                     <p class="text-white opacity-50 max-w-xl mx-auto">
                         Мы перезвоним Вам и раскажем как быстро вы сможете получить перегородку мечты.
@@ -1419,10 +1420,10 @@
             btn.onclick = function(){
                 if (weight.value != '' && height.value != '') {
                     if (load.checked){
-                        load.value = 1.5; }
+                        load.value = 1; }
                     else
                     {
-                        load.value = 1;
+                        load.value = 0.7;
                     }
 
                     let sum = ((weight.value * height.value)/10000 * kub) * format.value * Number(load.value);
