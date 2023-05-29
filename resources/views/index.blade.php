@@ -48,13 +48,13 @@
         <!-- Navbar Start -->
         <nav class="navbar" id="navbar">
             <div class="container flex flex-wrap items-center justify-end">
-                <a class="navbar-brand" href="/">
-                    <span class="inline-block dark:hidden">
-                        <img src="assets/images/logo-dark1.png" class="l-dark" alt="">
-                        <img src="assets/images/logo-light1.png" class="l-light" alt="">
-                    </span>
-                    <img src="assets/images/logo-light1.png" class="hidden dark:inline-block" alt="">
-                </a>
+{{--                <a class="navbar-brand" href="/">--}}
+{{--                    <span class="inline-block dark:hidden">--}}
+{{--                        <img src="assets/images/logo-dark1.png" class="l-dark" alt="">--}}
+{{--                        <img src="assets/images/logo-light1.png" class="l-light" alt="">--}}
+{{--                    </span>--}}
+{{--                    <img src="assets/images/logo-light1.png" class="hidden dark:inline-block" alt="">--}}
+{{--                </a>--}}
 
                 <div class="nav-icons flex items-center lg_992:order-2 ml-auto">
                     <!-- Navbar Button -->
@@ -89,9 +89,6 @@
                 <div class="navigation lg_992:order-1 lg_992:flex hidden" id="menu-collapse">
                     <ul class="navbar-nav nav-light" id="navbar-navlist">
                         <li class="nav-item">
-                            <a class="nav-link" href="#features">О Нас</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#portfolio">Портфолио</a>
                         </li>
                         <li class="nav-item">
@@ -99,9 +96,6 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#pricing">Прайс</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#team">Команда</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Контакты</a>
@@ -113,19 +107,29 @@
         <!-- Navbar End -->
 
         <!-- Hero Start -->
-        <section class="py-36 lg:py-64 w-full table relative" style="overflow: hidden !important;" id="home">
+        <section class="w-full table relative" style="
+        overflow: hidden !important;
+        padding-bottom: 5%;
+        padding-top: 5%;
+        " id="home">
+{{--            <section class="py-36 lg:py-64 w-full table relative" style="overflow: hidden !important;" id="home">--}}
+
             <video class="video" loop="loop" autoplay="" muted="">
                <source src="assets/images/bg/IMG_5349.MP4" type="video/mp4" />
-
+                <br><br>
             </video>
             <div class="absolute inset-0 bg-black opacity-80"></div>
             <div class="container relative">
                 <div class="grid grid-cols-1 mt-12">
+                    <img src="assets/images/logo-light-big.png" class="l-light" alt="">
                     <h4 class="text-white lg:text-5xl text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">Перегородки межкомнатные в стиле Лофт:<br>
-                        <span class="typewrite relative text-type-element" data-period="2000" data-type='[ "Высокое качество", "Короткие сроки", "Собственное производство" ]'></span>
+{{--                        <span class="typewrite relative text-type-element" data-period="2000" data-type='[ "Высокое качество", "Короткие сроки", "Собственное производство" ]'></span>--}}
                     </h4>
 
-                    <p class="text-white opacity-50 mb-0 max-w-2xl text-lg">Закажите прямо сейчас!</p>
+                    <p class="text-white opacity-50 mb-0 max-w-2xl text-lg">Собственное производство</p>
+                    <p class="text-white opacity-50 mb-0 max-w-2xl text-lg">Работаем со сверхпрочным закаленным стеклом</p>
+                    <p class="text-white opacity-50 mb-0 max-w-2xl text-lg">Короткие сроки изготовления и монтажа</p>
+                    <p class="text-white opacity-50 mb-0 max-w-2xl text-lg">Проведение замера в день заявки</p>
 
                     <div class="relative mt-10">
                         <a type="button" data-bs-toggle="modal" href="#exampleModalToggle"  class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">ХОЧУ ПЕРЕГОРОДКУ !</a>
@@ -140,26 +144,31 @@
         <!-- Start -->
         <section class="relative md:py-24 py-16" id="features">
             <div class="container lg mx-auto">
-                <div class="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 pb-8 items-center">
-                    <div>
-                        <h6 class="text-orange-600 text-base font-medium uppercase mb-2">О НАС</h6>
-                        <h3 class="mb-4 md:text-2xl text-xl font-semibold dark:text-white md:mb-0">
-                            МЫ предоставляем услуги изготовления и установки перегородок ЛОФТ из алюминиевых конструкций.
-                            <br>Наша компания гарантирует безупречное качество продукции и установки, а <b>также низкие цены</b> и <b>высокий сервис</b>.
-                        </h3>
-                    </div>
+{{--                <div class="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 pb-8 items-center">--}}
+{{--                    <div>--}}
+{{--                        <h6 class="text-orange-600 text-base font-medium uppercase mb-2">О НАС</h6>--}}
+{{--                        <h3 class="mb-4 md:text-2xl text-xl font-semibold dark:text-white md:mb-0">--}}
+{{--                            МЫ предоставляем услуги изготовления и установки перегородок ЛОФТ из алюминиевых конструкций.--}}
+{{--                            <br>Наша компания гарантирует безупречное качество продукции и установки, а <b>также низкие цены</b> и <b>высокий сервис</b>.--}}
+{{--                        </h3>--}}
+{{--                    </div>--}}
 
-                    <div>
-                        <p class="text-slate-400 dark:text-slate-300 max-w-xl">Сегодня современный мир интерьерного дизайна не обходится без межкомнатных стеклянных перегородок в стиле ЛОФТ.
-                            <br><br>
-                            Будь то квартира или офис, а открытое полное пространство всегда создает максимальную иллюзию света и простора.
-                            <br><br>
-                            Данные элементы интерьера набирают сегодня особую популярность, благодаря своей изящной конструкции, элегантному виду и эксплуатации. Стеклянные перегородки можно устанавливать в любом интерьере, опираясь на создание желаемого стиля.
-                        </p>
-                    </div>
-                </div><!--end grid-->
+{{--                    <div>--}}
+{{--                        <p class="text-slate-400 dark:text-slate-300 max-w-xl">Сегодня современный мир интерьерного дизайна не обходится без межкомнатных стеклянных перегородок в стиле ЛОФТ.--}}
+{{--                            <br><br>--}}
+{{--                            Будь то квартира или офис, а открытое полное пространство всегда создает максимальную иллюзию света и простора.--}}
+{{--                            <br><br>--}}
+{{--                            Данные элементы интерьера набирают сегодня особую популярность, благодаря своей изящной конструкции, элегантному виду и эксплуатации. Стеклянные перегородки можно устанавливать в любом интерьере, опираясь на создание желаемого стиля.--}}
+{{--                        </p>--}}
+{{--                    </div>--}}
+{{--                </div><!--end grid-->--}}
 
+                <div class="grid grid-cols-1 pb-8 text-center">
+                    <h6 class="text-orange-600 text-base font-medium uppercase mb-2">НАШИ ПРЕИМУЩЕСТВА</h6>
+
+                </div>
                 <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6">
+
                     <div class="features p-6 shadow-xl shadow-slate-100 dark:shadow-slate-800 transition duration-500 rounded-3xl mt-8">
                         <div class="w-20 h-20 bg-orange-600/5 text-orange-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm">
                             <i class="uil uil-grids"></i>
@@ -167,7 +176,8 @@
 
                         <div class="content mt-7">
                             <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">Главное преимущество</a>
-                            <p class="text-slate-400 mt-3">Перегородкой можно разделить гостиную и кухню, отгородить техническую комнату, гардероб и не придется возводить еще одну стену и заниматься перпланировкой квартиры.</p>
+                            <p class="text-slate-400 mt-3">
+                                С помощью перегородок вы можете реализовать все ваши потребности за счет функционального разграничения пространства.</p>
 
 {{--                            <div class="mt-5">--}}
 {{--                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>--}}
@@ -182,7 +192,8 @@
 
                         <div class="content mt-7">
                             <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">Гибкость</a>
-                            <p class="text-slate-400 mt-3">Конструкции изготавливаются из из различных материалов, все зависит от бюджета и взглядов клиента на дизайн. </p>
+                            <p class="text-slate-400 mt-3">Конструкции изготавливаются из различных материалов, все зависит от бюджета и ваших взглядов на дизайн.
+                            </p>
 
 {{--                            <div class="mt-5">--}}
 {{--                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>--}}
@@ -197,7 +208,7 @@
 
                         <div class="content mt-7">
                             <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">Цвет на выбор!</a>
-                            <p class="text-slate-400 mt-3">заказчик выбирает цвет профиля по каталогу RAL</p>
+                            <p class="text-slate-400 mt-3">Поможем с выбором цвета профиля по каталогу RAL</p>
 
 {{--                            <div class="mt-5">--}}
 {{--                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>--}}
@@ -212,7 +223,7 @@
 
                         <div class="content mt-7">
                             <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">Скидки</a>
-                            <p class="text-slate-400 mt-3">Скидка 5% предоставляется Ветеранам ВОВ, пенсионерам, инвалидам и многодетным семьям.</p>
+                            <p class="text-slate-400 mt-3">Скидка на первый заказ, социальные скидки, скидки партнеров.</p>
 
 {{--                            <div class="mt-5">--}}
 {{--                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>--}}
@@ -227,7 +238,8 @@
 
                         <div class="content mt-7">
                             <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">Управляй пространством</a>
-                            <p class="text-slate-400 mt-3">Установка конструкций из стекла позволяет расширить видимое пространство комнаты. </p>
+                            <p class="text-slate-400 mt-3">Установка конструкций из стекла позволяет расширить видимое пространство комнаты.
+                            </p>
 
 {{--                            <div class="mt-5">--}}
 {{--                                <a href="" class="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500">Подробнее <i class="uil uil-arrow-right"></i></a>--}}
@@ -243,7 +255,7 @@
                         <div class="content mt-7">
                             <a href="" class="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium">Наше производство</a>
                             <p class="text-slate-400 mt-3">
-                                Благодаря собственному производству, мы можем в короткие сроки изготовить изделия Вашей мечты и <b>даем гарантию 1 год!</b>
+                                Изготавливаем изделия в короткие сроки,<b> гарантия 1 год.</b>
                             </p>
 
 {{--                            <div class="mt-5">--}}
@@ -257,9 +269,7 @@
             <div class="container md:mt-24 mt-16">
                 <div class="grid grid-cols-1 pb-8 text-center">
                     <h6 class="text-orange-600 text-base font-medium uppercase mb-2">Как мы работаем</h6>
-                    <h3 class="mb-4 md:text-2xl text-xl font-medium dark:text-white">От идеи к готовому продукту</h3>
 
-                    <p class="text-slate-400 dark:text-slate-300 max-w-xl mx-auto">На всех этапах работы мы то то, мы то то...</p>
                 </div><!--end grid-->
 
                 <div class="grid grid-cols-1 mt-8">
@@ -274,7 +284,15 @@
                                 <div class="mt-4 md:mt-0">
                                     <div class="event event-description-right float-left text-left md:ml-7">
                                         <h5 class="text-lg dark:text-white mb-1 font-medium">Идея</h5>
-                                        <p class="timeline-subtitle mt-3 mb-0 text-slate-400">У Вас появилась идея, как можно улучшить пространство в комнате с помощью перегородок в стиле ЛОФТ</p>
+                                        <p class="timeline-subtitle mt-3 mb-0 text-slate-400">
+                                            Делаете ремонт в новой квартире
+                                        </p>
+                                        <p class="timeline-subtitle mt-3 mb-0 text-slate-400">
+                                            Хотите обновить старый интерьер, добавить пространства
+                                        </p>
+                                        <p class="timeline-subtitle mt-3 mb-0 text-slate-400">
+                                            Хотите разделить рабочее пространство в офисе
+                                        </p>
                                     </div>
                                 </div><!--end col-->
                             </div><!--end grid-->
@@ -285,7 +303,9 @@
                                 <div class="md:order-1 order-2">
                                     <div class="event event-description-left float-left text-right md:mr-7">
                                         <h5 class="text-lg dark:text-white mb-1 font-medium">Заявка</h5>
-                                        <p class="timeline-subtitle mt-3 mb-0 text-slate-400">Вы связались с нами для реализации своей идеи. Менеджер вам предварительно все посчитает и расскажет</p>
+                                        <p class="timeline-subtitle mt-3 mb-0 text-slate-400">
+                                            Оставьте заявку и наш менеджер произведет предварительный расчет и даст вам подробную консультацию.
+                                        </p>
                                     </div>
                                 </div><!--end col-->
                                 <div class="md:order-2 order-1">
@@ -306,7 +326,9 @@
                                 <div class="mt-4 mt-sm-0">
                                     <div class="event event-description-right float-left text-left md:ml-7">
                                         <h5 class="text-lg dark:text-white mb-1 font-medium">Дизайн</h5>
-                                        <p class="timeline-subtitle mt-3 mb-0 text-slate-400">Замерщик и дизайнер подскажут какой стиль перегородки выбрать, подберут цвет т дизайн к вашему интерьеру.</p>
+                                        <p class="timeline-subtitle mt-3 mb-0 text-slate-400">
+                                            Наши специалисты подскажут какой стиль перегородки выбрать, помогут с подбором цвета и дизайн к вашему интерьеру.
+                                        </p>
                                     </div>
                                 </div><!--end col-->
                             </div><!--end grid-->
@@ -318,7 +340,9 @@
                                 <div class="md:order-1 order-2">
                                     <div class="event event-description-left float-left text-right md:mr-7">
                                         <h5 class="text-lg dark:text-white mb-1 font-medium">Монтаж</h5>
-                                        <p class="timeline-subtitle mt-3 mb-0 text-slate-400">За короткое время после согласования монтажники вставят уже готовые перегородки. Вам остается только наслаждаться результатом.</p>
+                                        <p class="timeline-subtitle mt-3 mb-0 text-slate-400">
+                                            После утверждения проекта и изготовления вашей перегородки проводится работа по установке.
+                                        </p>
                                     </div>
                                 </div><!--end col-->
                                 <div class="md:order-2 order-1">
@@ -345,7 +369,8 @@
                     <h3 class="mb-6 md:text-3xl text-2xl text-white font-medium">Закажите замер сейчас!</h3>
 
                     <p class="text-white opacity-50 max-w-xl mx-auto">
-                        Мы перезвоним Вам и раскажем как быстро вы сможете получить перегородку мечты.
+                        Мы свяжемся с Вами и расскажем о сроках изготовления и установки перегородки.
+
                     </p>
 
                     <div class="">
@@ -361,9 +386,14 @@
             <div class="container">
                 <div class="grid grid-cols-1 pb-8 text-center">
                     <h6 class="text-orange-600 text-base font-medium uppercase mb-2">Портфолио</h6>
-                    <h3 class="mb-4 md:text-2xl text-xl font-medium dark:text-white">У нас много замечательных примеров работ</h3>
+                    <h3 class="mb-4 md:text-2xl text-xl font-medium dark:text-white">Готовые работы</h3>
 
-                    <p class="text-slate-400 dark:text-slate-300 max-w-xl mx-auto">Наша компания предлагает вам алюминиевые перегородки лофт, которые отличаются безупречным качеством и низкой ценой. Мы гарантируем высокий уровень сервиса и индивидуальный подход к каждому клиенту. Наши конструкции могут быть выполнены в любых конфигурациях для максимального соответствия вашим потребностям. Кроме того, мы предоставляем социальные скидки и гарантируем короткие сроки выполнения заказа. Надежность и функциональность наших перегородок лофт обеспечивают комфорт и уют в вашем офисе или доме.</p>
+{{--                    <p class="text-slate-400 dark:text-slate-300 max-w-xl mx-auto">--}}
+{{--                        Наша компания предлагает вам алюминиевые перегородки лофт, которые отличаются безупречным качеством и низкой ценой. --}}
+{{--                        Мы гарантируем высокий уровень сервиса и индивидуальный подход к каждому клиенту. Наши конструкции могут быть выполнены --}}
+{{--                        в любых конфигурациях для максимального соответствия вашим потребностям. Кроме того, мы предоставляем социальные скидки --}}
+{{--                        и гарантируем короткие сроки выполнения заказа. Надежность и функциональность наших перегородок лофт обеспечивают комфорт и уют в вашем офисе или доме.--}}
+{{--                    </p>--}}
                 </div><!--end grid-->
 
                 <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-6 mt-12">
@@ -659,7 +689,8 @@
                     <h3 class="mb-6 md:text-3xl text-2xl text-white font-medium">Закажите замер сейчас!</h3>
 
                     <p class="text-white opacity-50 max-w-xl mx-auto">
-                        Мы перезвоним Вам и раскажем как быстро вы сможете получить перегородку мечты.
+                        Мы свяжемся с Вами и расскажем о сроках изготовления и установки перегородки.
+
                     </p>
 
                     <div class="relative mt-10">
@@ -677,14 +708,14 @@
                     <h6 class="text-orange-600 text-base font-medium uppercase mb-2">Отзывы</h6>
                     <h3 class="mb-4 md:text-2xl text-xl font-medium dark:text-white">Отзывы наших клиентов</h3>
 
-                    <p class="text-slate-400 dark:text-slate-300 max-w-xl mx-auto">Тут можно написать текст</p>
+{{--                    <p class="text-slate-400 dark:text-slate-300 max-w-xl mx-auto">Тут можно написать текст</p>--}}
                 </div><!--end grid-->
 
                 <div class="grid grid-cols-1 mt-8 relative">
                     <div class="tiny-two-item">
                         <div class="tiny-slide">
                             <div class="lg:flex p-6 lg:p-0 relative rounded-md shadow shadow-slate-200 dark:shadow-slate-700 bg-white dark:bg-black overflow-hidden m-2">
-                                <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/01.jpg" alt="" width="384" height="512">
+{{--                                <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/01.jpg" alt="" width="384" height="512">--}}
                                 <div class="pt-6 lg:p-6 text-center lg:text-left space-y-4">
                                     <p class="text-base text-slate-500 dark:text-slate-200">
                                         "Совсем недавно, до 2018 года мы..<a type="button" data-bs-toggle="modal" href="#clientModal-1" class="clent-modal-btn">посмотреть отзыв...</a>
@@ -698,7 +729,7 @@
                         </div>
                         <div class="tiny-slide">
                             <div class="lg:flex p-6 lg:p-0 relative rounded-md shadow shadow-slate-200 dark:shadow-slate-700 bg-white dark:bg-black overflow-hidden m-2">
-                                <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/02.jpg" alt="" width="384" height="512">
+{{--                                <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/02.jpg" alt="" width="384" height="512">--}}
                                 <div class="pt-6 lg:p-6 text-center lg:text-left space-y-4">
                                     <p class="text-base text-slate-500 dark:text-slate-200">
                                         "Мы с женой обратились в фирму «Город перегородок»..<a type="button" data-bs-toggle="modal" href="#clientModal-2" class="clent-modal-btn">посмотреть отзыв...</a>
@@ -713,7 +744,7 @@
                         </div>
                         <div class="tiny-slide">
                             <div class="lg:flex p-6 lg:p-0 relative rounded-md shadow shadow-slate-200 dark:shadow-slate-700 bg-white dark:bg-black overflow-hidden m-2">
-                                <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/04.jpg" alt="" width="384" height="512">
+{{--                                <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/04.jpg" alt="" width="384" height="512">--}}
                                 <div class="pt-6 lg:p-6 text-center lg:text-left space-y-4">
                                     <p class="text-base text-slate-500 dark:text-slate-200">
                                         "Мы купили квартиру в новостройке с автономным газовым котлом..<a type="button" data-bs-toggle="modal" href="#clientModal-4" class="clent-modal-btn">посмотреть отзыв...</a>
@@ -728,7 +759,7 @@
                         </div>
                         <div class="tiny-slide">
                             <div class="lg:flex p-6 lg:p-0 relative rounded-md shadow shadow-slate-200 dark:shadow-slate-700 bg-white dark:bg-black overflow-hidden m-2">
-                                <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/03.jpg" alt="" width="384" height="512">
+{{--                                <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/03.jpg" alt="" width="384" height="512">--}}
                                 <div class="pt-6 lg:p-6 text-center lg:text-left space-y-4">
                                     <p class="text-base text-slate-500 dark:text-slate-200">
                                         "Хочу рассказать вам о моем впечатлении от перегородки лофт..<a type="button" data-bs-toggle="modal" href="#clientModal-4" class="clent-modal-btn">посмотреть отзыв...</a>
@@ -754,9 +785,12 @@
             <div class="container">
                 <div class="grid grid-cols-1 pb-8 text-center">
                     <h6 class="text-orange-600 text-base font-medium uppercase mb-2">Прайс</h6>
-                    <h3 class="mb-4 md:text-2xl text-xl font-medium dark:text-white">Калькулятор цен</h3>
+                    <a href="" data-bs-target="#exampleModalToggle2"
+                       data-bs-toggle="modal"><h3 class="mb-4 md:text-2xl text-xl font-medium dark:text-white">Калькулятор цен</h3></a>
 
-                    <p class="text-slate-400 dark:text-slate-300 max-w-xl mx-auto">Вы можете самостоятельно предварительно расчитать стоимость перегородки вашей мечты.</p>
+
+                    <p class="text-slate-400 dark:text-slate-300 max-w-xl mx-auto">Вы можете самостоятельно предварительно рассчитать стоимость перегородки.
+                    </p>
                 </div><!--end grid-->
 
                 <div class="flex flex-wrap">
@@ -777,24 +811,24 @@
                                 <a type="button" data-bs-toggle="modal" href="#exampleModalToggle2" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md w-full">Рассчитать стоимость</a>
                             </div>
                             <div class="border-b border-slate-200 dark:border-slate-700"></div>
-                            <ul class="self-start px-8 pt-8">
-                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
-                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
-                                    <span>Преимущестово 1</span>
-                                </li>
-                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
-                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
-                                    <span>Преимущестово 2</span>
-                                </li>
-                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
-                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
-                                    <span>Преимущестово 3</span>
-                                </li>
-                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
-                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
-                                    <span>Преимущестово 4</span>
-                                </li>
-                            </ul>
+{{--                            <ul class="self-start px-8 pt-8">--}}
+{{--                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">--}}
+{{--                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>--}}
+{{--                                    <span>Преимущестово 1</span>--}}
+{{--                                </li>--}}
+{{--                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">--}}
+{{--                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>--}}
+{{--                                    <span>Преимущестово 2</span>--}}
+{{--                                </li>--}}
+{{--                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">--}}
+{{--                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>--}}
+{{--                                    <span>Преимущестово 3</span>--}}
+{{--                                </li>--}}
+{{--                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">--}}
+{{--                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>--}}
+{{--                                    <span>Преимущестово 4</span>--}}
+{{--                                </li>--}}
+{{--                            </ul>--}}
                         </div>
                     </div>
 
@@ -912,24 +946,24 @@
 
                             </div>
                             <div class="border-b border-slate-200 dark:border-slate-700"></div>
-                            <ul class="self-start px-8 pt-8">
-                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
-                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
-                                    <span>Преимущестово 1</span>
-                                </li>
-                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
-                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
-                                    <span>Преимущестово 2</span>
-                                </li>
-                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
-                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
-                                    <span>Преимущестово 3</span>
-                                </li>
-                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
-                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
-                                    <span>Преимущестово 4</span>
-                                </li>
-                            </ul>
+{{--                            <ul class="self-start px-8 pt-8">--}}
+{{--                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">--}}
+{{--                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>--}}
+{{--                                    <span>Преимущестово 1</span>--}}
+{{--                                </li>--}}
+{{--                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">--}}
+{{--                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>--}}
+{{--                                    <span>Преимущестово 2</span>--}}
+{{--                                </li>--}}
+{{--                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">--}}
+{{--                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>--}}
+{{--                                    <span>Преимущестово 3</span>--}}
+{{--                                </li>--}}
+{{--                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">--}}
+{{--                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>--}}
+{{--                                    <span>Преимущестово 4</span>--}}
+{{--                                </li>--}}
+{{--                            </ul>--}}
                         </div>
                     </div>
 
@@ -947,111 +981,43 @@
                                 <a type="button" data-bs-toggle="modal" href="#exampleModalToggle2" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md w-full">Рассчитать стоимость</a>
                             </div>
                             <div class="border-b border-slate-200 dark:border-slate-700"></div>
-                            <ul class="self-start px-8 pt-8">
-                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
-                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
-                                    <span>Преимущестово 1</span>
-                                </li>
-                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
-                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
-                                    <span>Преимущестово 2</span>
-                                </li>
-                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
-                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
-                                    <span>Преимущестово 3</span>
-                                </li>
-                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">
-                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>
-                                    <span>Преимущестово 4</span>
-                                </li>
-                            </ul>
+{{--                            <ul class="self-start px-8 pt-8">--}}
+{{--                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">--}}
+{{--                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>--}}
+{{--                                    <span>Преимущестово 1</span>--}}
+{{--                                </li>--}}
+{{--                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">--}}
+{{--                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>--}}
+{{--                                    <span>Преимущестово 2</span>--}}
+{{--                                </li>--}}
+{{--                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">--}}
+{{--                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>--}}
+{{--                                    <span>Преимущестово 3</span>--}}
+{{--                                </li>--}}
+{{--                                <li class="flex items-center my-1 text-slate-400 dark:text-slate-300">--}}
+{{--                                    <i class="uil uil-check-circle text-lg text-green-600 mr-1"></i>--}}
+{{--                                    <span>Преимущестово 4</span>--}}
+{{--                                </li>--}}
+{{--                            </ul>--}}
                         </div>
                     </div>
                 </div>
                 <div class="flex justify-center text-slate-400 dark:text-slate-300 mt-2"><span class="text-orange-600">*</span>Носит ознакомительный характер, не является оффертой</div>
             </div><!--end container-->
-        </section><!--end section-->
-        <!-- End -->
-
-        <!-- Start -->
-        <section class="relative md:py-24 py-16 bg-zinc-50 dark:bg-gray-800" id="team">
-            <div class="container">
-                <div class="grid grid-cols-1 pb-8 text-center">
-                    <h6 class="text-orange-600 text-base font-medium uppercase mb-2">Команда</h6>
-                    <h3 class="mb-4 md:text-2xl text-xl font-medium dark:text-white">Наша креативная команда</h3>
-
-                    <p class="text-slate-400 dark:text-slate-300 max-w-xl mx-auto">Здесь тоже может быть текст о вашей команде</p>
-                </div><!--end grid-->
-
-                <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-6 mt-8">
-                    <div class="relative rounded-md shadow-lg overflow-hidden group">
-                        <img src="assets/images/client/01.jpg" class="group-hover:origin-center group-hover:scale-105 transition duration-500" alt="">
-                        <div class="absolute inset-0 group-hover:bg-black opacity-30 z-0"></div>
-                        <ul class="list-none absolute z-10 hidden group-hover:block top-4 right-4 mb-0">
-                             <li class="mb-1"><a href="javascript:void(0)" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white btn-icon btn-sm rounded-full"><i class="uil uil-instagram"></i></a></li>
-                                                    </ul><!--end icon-->
-
-                        <div class="content absolute left-4 bottom-4 right-4 bg-white dark:bg-black hidden group-hover:block p-4 rounded-md text-center">
-                            <a href="" class="h5 text-md dark:text-white hover:text-orange-600 dark:hover:text-orange-600 font-medium">Василий Петрович</a>
-                            <h6 class="text-slate-400 dark:text-slate-300 mb-0 font-light">Дизайнер</h6>
-                        </div>
-                    </div>
-
-                    <div class="relative rounded-md shadow-lg overflow-hidden group">
-                        <img src="assets/images/client/01.jpg" class="group-hover:origin-center group-hover:scale-105 transition duration-500" alt="">
-                        <div class="absolute inset-0 group-hover:bg-black opacity-30 z-0"></div>
-                        <ul class="list-none absolute z-10 hidden group-hover:block top-4 right-4 mb-0">
-                            <li class="mb-1"><a href="javascript:void(0)" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white btn-icon btn-sm rounded-full"><i class="uil uil-instagram"></i></a></li>
-                        </ul><!--end icon-->
-
-                        <div class="content absolute left-4 bottom-4 right-4 bg-white dark:bg-black hidden group-hover:block p-4 rounded-md text-center">
-                            <a href="" class="h5 text-md dark:text-white hover:text-orange-600 dark:hover:text-orange-600 font-medium">Василий Петрович</a>
-                            <h6 class="text-slate-400 dark:text-slate-300 mb-0 font-light">Дизайнер</h6>
-                        </div>
-                    </div>
-
-                    <div class="relative rounded-md shadow-lg overflow-hidden group">
-                        <img src="assets/images/client/01.jpg" class="group-hover:origin-center group-hover:scale-105 transition duration-500" alt="">
-                        <div class="absolute inset-0 group-hover:bg-black opacity-30 z-0"></div>
-                        <ul class="list-none absolute z-10 hidden group-hover:block top-4 right-4 mb-0">
-                            <li class="mb-1"><a href="javascript:void(0)" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white btn-icon btn-sm rounded-full"><i class="uil uil-instagram"></i></a></li>
-                        </ul><!--end icon-->
-
-                        <div class="content absolute left-4 bottom-4 right-4 bg-white dark:bg-black hidden group-hover:block p-4 rounded-md text-center">
-                            <a href="" class="h5 text-md dark:text-white hover:text-orange-600 dark:hover:text-orange-600 font-medium">Василий Петрович</a>
-                            <h6 class="text-slate-400 dark:text-slate-300 mb-0 font-light">Дизайнер</h6>
-                        </div>
-                    </div>
-
-                    <div class="relative rounded-md shadow-lg overflow-hidden group">
-                        <img src="assets/images/client/01.jpg" class="group-hover:origin-center group-hover:scale-105 transition duration-500" alt="">
-                        <div class="absolute inset-0 group-hover:bg-black opacity-30 z-0"></div>
-                        <ul class="list-none absolute z-10 hidden group-hover:block top-4 right-4 mb-0">
-                            <li class="mb-1"><a href="javascript:void(0)" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white btn-icon btn-sm rounded-full"><i class="uil uil-instagram"></i></a></li>
-                        </ul><!--end icon-->
-
-                        <div class="content absolute left-4 bottom-4 right-4 bg-white dark:bg-black hidden group-hover:block p-4 rounded-md text-center">
-                            <a href="" class="h5 text-md dark:text-white hover:text-orange-600 dark:hover:text-orange-600 font-medium">Василий Петрович</a>
-                            <h6 class="text-slate-400 dark:text-slate-300 mb-0 font-light">Дизайнер</h6>
-                        </div>
-                    </div>
-                </div><!--end grid-->
-            </div><!--end container-->
-
             <div class="container mt-12">
                 <div class="grid grid-cols-2 md:grid-cols-4">
                     <div class="counter-box position-relative text-center">
-                        <h3 class="font-medium text-3xl mb-2 dark:text-white"><span class="counter-value" data-target="40">3</span>+</h3>
+                        <h3 class="font-medium text-3xl mb-2 dark:text-white"><span class="counter-value" data-target="4">3</span>+</h3>
                         <span class="counter-head text-slate-400 dark:text-slate-300">Городов в России</span>
                     </div><!--end counter box-->
 
                     <div class="counter-box position-relative text-center">
-                        <h3 class="font-medium text-3xl mb-2 dark:text-white"><span class="counter-value" data-target="200">1</span>+</h3>
+                        <h3 class="font-medium text-3xl mb-2 dark:text-white"><span class="counter-value" data-target="50">1</span>+</h3>
                         <span class="counter-head text-slate-400 dark:text-slate-300">Сотрудников</span>
                     </div><!--end counter box-->
 
                     <div class="counter-box position-relative text-center">
-                        <h3 class="font-medium text-3xl mb-2 dark:text-white"><span class="counter-value" data-target="457">200</span>K</h3>
+                        <h3 class="font-medium text-3xl mb-2 dark:text-white"><span class="counter-value" data-target="500">200</span>+</h3>
                         <span class="counter-head text-slate-400 dark:text-slate-300">Клиентов</span>
                     </div><!--end counter box-->
 
@@ -1061,9 +1027,78 @@
                     </div><!--end counter box-->
                 </div><!--end grid-->
             </div><!--end container-->
-
-
         </section><!--end section-->
+        <!-- End -->
+
+        <!-- Start -->
+{{--        <section class="relative md:py-24 py-16 bg-zinc-50 dark:bg-gray-800" id="team">--}}
+{{--            <div class="container">--}}
+{{--                <div class="grid grid-cols-1 pb-8 text-center">--}}
+{{--                    <h6 class="text-orange-600 text-base font-medium uppercase mb-2">Команда</h6>--}}
+{{--                    <h3 class="mb-4 md:text-2xl text-xl font-medium dark:text-white">Наша креативная команда</h3>--}}
+
+{{--                    <p class="text-slate-400 dark:text-slate-300 max-w-xl mx-auto">Здесь тоже может быть текст о вашей команде</p>--}}
+{{--                </div><!--end grid-->--}}
+
+{{--                <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-6 mt-8">--}}
+{{--                    <div class="relative rounded-md shadow-lg overflow-hidden group">--}}
+{{--                        <img src="assets/images/client/01.jpg" class="group-hover:origin-center group-hover:scale-105 transition duration-500" alt="">--}}
+{{--                        <div class="absolute inset-0 group-hover:bg-black opacity-30 z-0"></div>--}}
+{{--                        <ul class="list-none absolute z-10 hidden group-hover:block top-4 right-4 mb-0">--}}
+{{--                             <li class="mb-1"><a href="javascript:void(0)" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white btn-icon btn-sm rounded-full"><i class="uil uil-instagram"></i></a></li>--}}
+{{--                                                    </ul><!--end icon-->--}}
+
+{{--                        <div class="content absolute left-4 bottom-4 right-4 bg-white dark:bg-black hidden group-hover:block p-4 rounded-md text-center">--}}
+{{--                            <a href="" class="h5 text-md dark:text-white hover:text-orange-600 dark:hover:text-orange-600 font-medium">Василий Петрович</a>--}}
+{{--                            <h6 class="text-slate-400 dark:text-slate-300 mb-0 font-light">Дизайнер</h6>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+
+{{--                    <div class="relative rounded-md shadow-lg overflow-hidden group">--}}
+{{--                        <img src="assets/images/client/01.jpg" class="group-hover:origin-center group-hover:scale-105 transition duration-500" alt="">--}}
+{{--                        <div class="absolute inset-0 group-hover:bg-black opacity-30 z-0"></div>--}}
+{{--                        <ul class="list-none absolute z-10 hidden group-hover:block top-4 right-4 mb-0">--}}
+{{--                            <li class="mb-1"><a href="javascript:void(0)" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white btn-icon btn-sm rounded-full"><i class="uil uil-instagram"></i></a></li>--}}
+{{--                        </ul><!--end icon-->--}}
+
+{{--                        <div class="content absolute left-4 bottom-4 right-4 bg-white dark:bg-black hidden group-hover:block p-4 rounded-md text-center">--}}
+{{--                            <a href="" class="h5 text-md dark:text-white hover:text-orange-600 dark:hover:text-orange-600 font-medium">Василий Петрович</a>--}}
+{{--                            <h6 class="text-slate-400 dark:text-slate-300 mb-0 font-light">Дизайнер</h6>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+
+{{--                    <div class="relative rounded-md shadow-lg overflow-hidden group">--}}
+{{--                        <img src="assets/images/client/01.jpg" class="group-hover:origin-center group-hover:scale-105 transition duration-500" alt="">--}}
+{{--                        <div class="absolute inset-0 group-hover:bg-black opacity-30 z-0"></div>--}}
+{{--                        <ul class="list-none absolute z-10 hidden group-hover:block top-4 right-4 mb-0">--}}
+{{--                            <li class="mb-1"><a href="javascript:void(0)" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white btn-icon btn-sm rounded-full"><i class="uil uil-instagram"></i></a></li>--}}
+{{--                        </ul><!--end icon-->--}}
+
+{{--                        <div class="content absolute left-4 bottom-4 right-4 bg-white dark:bg-black hidden group-hover:block p-4 rounded-md text-center">--}}
+{{--                            <a href="" class="h5 text-md dark:text-white hover:text-orange-600 dark:hover:text-orange-600 font-medium">Василий Петрович</a>--}}
+{{--                            <h6 class="text-slate-400 dark:text-slate-300 mb-0 font-light">Дизайнер</h6>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+
+{{--                    <div class="relative rounded-md shadow-lg overflow-hidden group">--}}
+{{--                        <img src="assets/images/client/01.jpg" class="group-hover:origin-center group-hover:scale-105 transition duration-500" alt="">--}}
+{{--                        <div class="absolute inset-0 group-hover:bg-black opacity-30 z-0"></div>--}}
+{{--                        <ul class="list-none absolute z-10 hidden group-hover:block top-4 right-4 mb-0">--}}
+{{--                            <li class="mb-1"><a href="javascript:void(0)" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white btn-icon btn-sm rounded-full"><i class="uil uil-instagram"></i></a></li>--}}
+{{--                        </ul><!--end icon-->--}}
+
+{{--                        <div class="content absolute left-4 bottom-4 right-4 bg-white dark:bg-black hidden group-hover:block p-4 rounded-md text-center">--}}
+{{--                            <a href="" class="h5 text-md dark:text-white hover:text-orange-600 dark:hover:text-orange-600 font-medium">Василий Петрович</a>--}}
+{{--                            <h6 class="text-slate-400 dark:text-slate-300 mb-0 font-light">Дизайнер</h6>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div><!--end grid-->--}}
+{{--            </div><!--end container-->--}}
+
+
+
+
+{{--        </section><!--end section-->--}}
         <!-- End -->
 
         <!-- Start -->
@@ -1074,7 +1109,8 @@
                     <h3 class="mb-6 md:text-3xl text-2xl text-white font-medium">Закажите замер сейчас!</h3>
 
                     <p class="text-white opacity-50 max-w-xl mx-auto">
-                        Мы перезвоним Вам и раскажем как быстро вы сможете получить перегородку мечты.
+                        Мы свяжемся с Вами и расскажем о сроках изготовления и установки перегородки.
+
                     </p>
 
                     <div class="relative mt-10">
