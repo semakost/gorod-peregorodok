@@ -72,9 +72,15 @@
                             </a>
                         </li>
                         <li class="inline">
-                            <a href="">
+                            <a href="https://t.me/gorod_peregorodok">
                                 <span class="login-btn-primary"><span class="btn btn-sm btn-icon rounded-full bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white"><i class="uil uil-instagram"></i></span></span>
                                 <span class="login-btn-light"><span class="btn btn-sm btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><i class="uil uil-instagram"></i></span></span>
+                            </a>
+                        </li>
+                        <li class="inline">
+                            <a href="https://t.me/gorod_peregorodok">
+                                <span class="login-btn-primary"><span class="btn btn-sm btn-icon rounded-full bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white"><i class="uil uil-telegram"></i></span></span>
+                                <span class="login-btn-light"><span class="btn btn-sm btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><i class="uil uil-telegram"></i></span></span>
                             </a>
                         </li>
                     </ul>
@@ -121,10 +127,10 @@
             <div class="absolute inset-0 bg-black opacity-80"></div>
             <div class="container relative">
                 <div class="grid grid-cols-1 mt-12">
-                    <img src="assets/images/logo-light-big.png" class="l-light" alt="">
-                    <h4 class="text-white lg:text-5xl text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">Перегородки межкомнатные в стиле Лофт:<br>
+                    <img src="assets/images/logo-light-big.png" class="l-light" style="padding: 1rem 0.5rem;" alt="">
+                    <h5 class="text-white lg:text-5xl text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">Перегородки межкомнатные в стиле Лофт:<br>
 {{--                        <span class="typewrite relative text-type-element" data-period="2000" data-type='[ "Высокое качество", "Короткие сроки", "Собственное производство" ]'></span>--}}
-                    </h4>
+                    </h5>
 
                     <p class="text-white opacity-50 mb-0 max-w-2xl text-lg">Собственное производство</p>
                     <p class="text-white opacity-50 mb-0 max-w-2xl text-lg">Работаем со сверхпрочным закаленным стеклом</p>
@@ -1163,7 +1169,7 @@
 
                                 <div class="flex-1 ml-6">
                                     <h5 class="text-lg dark:text-white mb-2 font-medium">E-mail</h5>
-                                    <a href="mailto:contact@example.com" class="text-slate-400">contact@gorod-peregorodok.ru</a>
+                                    <a href="mailto:contact@example.com" class="text-slate-400">sale@gorod-peregorodok.ru</a>
                                 </div>
                             </div>
 
@@ -1174,7 +1180,7 @@
 
                                 <div class="flex-1 ml-6">
                                     <h5 class="text-lg dark:text-white mb-2 font-medium">Адрес</h5>
-                                    <p class="text-slate-400 mb-2">Якутск, Курашова, 30/1, офис 16</p>
+                                    <p class="text-slate-400 mb-2">Москва, Флотская, 9</p>
                                 </div>
                             </div>
                         </div>
@@ -1205,8 +1211,9 @@
 
                     <div class="md:col-span-3 md:mt-0 mt-8">
                         <ul class="list-none foot-icon md:text-right text-center">
-                            <li class="inline"><a href="" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-youtube"></i></a></li>
+                            <li class="inline"><a href="https://vk.com/gorod_peregorodok1" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-vk"></i></a></li>
                             <li class="inline"><a href="" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-instagram"></i></a></li>
+                            <li class="inline"><a href="https://t.me/gorod_peregorodok" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-telegram"></i></a></li>
                             <li class="inline"><a href="tel:+79247656508" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-phone-alt"></i></a></li>
                             <li class="inline"><a href="" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-chat"></i></a></li>
                         </ul><!--end icon-->

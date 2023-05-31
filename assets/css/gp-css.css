@@ -34,7 +34,7 @@ section>div.container.relative {
 .clent-modal-btn {
     color: #fd7e14;
 }
-@media (max-width: 440px) {
+/*@media (max-width: 440px) {
     .calc-btn-m {
         display: none;
     }
@@ -46,7 +46,7 @@ section>div.container.relative {
     }
 
 
-}
+}*/
 
 
 
