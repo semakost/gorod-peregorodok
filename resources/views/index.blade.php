@@ -62,11 +62,11 @@
                         <li class="inline">
                             <a type="button" data-bs-toggle="modal" href="#exampleModalToggle2" class="btn-calc" > <span class="calc-btn-m">калькулятор</span>
                                 <span class="login-btn-primary"><span class="btn btn-sm btn-icon rounded-full bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white"><i class="uil uil-calculator"></i></span></span>
-                                    <span class="login-btn-light"><span class="btn btn-sm btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><i class="uil uil-calculator"></i></span></span>
+                                <span class="login-btn-light"><span class="btn btn-sm btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><i class="uil uil-calculator"></i></span></span>
                             </a>
                         </li>
                         <li class="inline">
-                            <a href="tel:+79247656508">
+                            <a type="button" href="tel:88005551588" class="btn-calc btn-calc-tel"> <span class="calc-btn-m">8 800 555-15-88</span>
                                 <span class="login-btn-primary"><span class="btn btn-sm btn-icon rounded-full bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white"><i class="uil uil-phone"></i></span></span>
                                 <span class="login-btn-light"><span class="btn btn-sm btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><i class="uil uil-phone"></i></span></span>
                             </a>
@@ -1158,7 +1158,7 @@
 
                                 <div class="flex-1 ml-6">
                                     <h5 class="text-lg dark:text-white mb-2 font-medium">Телефон</h5>
-                                    <a href="tel:+152534-468-854" class="text-slate-400">8 800 555-15-88</a>
+                                    <a href="tel:88005551588" class="text-slate-400">8 800 555-15-88</a>
                                 </div>
                             </div>
 
@@ -1214,7 +1214,7 @@
                             <li class="inline"><a href="https://vk.com/gorod_peregorodok1" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-vk"></i></a></li>
                             <li class="inline"><a href="" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-instagram"></i></a></li>
                             <li class="inline"><a href="https://t.me/gorod_peregorodok" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-telegram"></i></a></li>
-                            <li class="inline"><a href="tel:+79247656508" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-phone-alt"></i></a></li>
+                            <li class="inline"><a href="tel:88005551588" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-phone-alt"></i></a></li>
                             <li class="inline"><a href="" class="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-orange-600 bg-slate-800 dark:bg-gray-900 hover:bg-orange-600 dark:hover:bg-orange-600 text-gray-400 hover:text-white"><i class="uil uil-chat"></i></a></li>
                         </ul><!--end icon-->
                     </div><!--end col-->
