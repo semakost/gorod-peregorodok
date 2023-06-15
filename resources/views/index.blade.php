@@ -139,7 +139,7 @@
                     <p class="text-white opacity-50 mb-0 max-w-2xl text-lg">Проведение замера в день заявки</p>
 
                     <div class="relative mt-10">
-                        <a type="button" data-bs-toggle="modal" href="#exampleModalToggle"  class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">ХОЧУ ПЕРЕГОРОДКУ !</a>
+                        <button type="submit" id="jivoCallbackMain"  class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">ХОЧУ ПЕРЕГОРОДКУ !</button>
                     </div>
                 </div>
             </div><!--end container-->
@@ -381,7 +381,7 @@
                     </p>
 
                     <div class="">
-                        <a type="button" data-bs-toggle="modal" href="#exampleModalToggle" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Заказать звонок !</a>
+                        <button type="submit" id="jivoCallback"  class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Заказать звонок !</button>
                     </div>
                 </div><!--end grid-->
             </div><!--end container-->
@@ -701,7 +701,7 @@
                     </p>
 
                     <div class="relative mt-10">
-                        <a type="button" data-bs-toggle="modal" href="#exampleModalToggle" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Заказать звонок !</a>
+                        <button type="submit" id="jivoCallback2"  class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Заказать звонок !</button>
                     </div>
                 </div><!--end grid-->
             </div><!--end container-->
@@ -944,7 +944,7 @@
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" name="adress" id="btn" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md" value="Считать"> Посчитать</button>
-                                                <button class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Оставить заявку</button>
+                                                <button type="submit" id="jivoChat"  class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Оставить заявку</button>
                                             </div>
                                         </div>
                                     </div>
@@ -1121,7 +1121,7 @@
                     </p>
 
                     <div class="relative mt-10">
-                        <a type="button" data-bs-toggle="modal" href="#exampleModalToggle" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Заказать звонок !</a>
+                        <button type="submit" id="jivoCallback3"  class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Заказать звонок !</button>
                     </div>
                 </div><!--end grid-->
             </div><!--end container-->
@@ -1148,7 +1148,7 @@
                     <div class="lg:col-span-4">
                         <div class="lg:ml-8">
                             <div class="relative mt-10">
-                                <a type="button" data-bs-toggle="modal" href="#exampleModalToggle" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Заказать звонок !</a>
+                                <button type="submit" id="jivoCallback4" class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Заказать звонок !</button>
                             </div>
                             <br>
                             <div class="flex">
@@ -1492,6 +1492,26 @@
                 accurateTrackBounce:true,
                 webvisor:true
             });
+        </script>
+        <script type="text/javascript" >
+            document.querySelector("#jivoCallback").onclick = function jivo_onLoadCallback() {
+                jivo_api.open({start: 'call'});;
+            }
+            document.querySelector("#jivoCallback2").onclick = function jivo_onLoadCallback() {
+                jivo_api.open({start: 'call'});;
+            }
+            document.querySelector("#jivoCallback3").onclick = function jivo_onLoadCallback() {
+                jivo_api.open({start: 'call'});;
+            }
+            document.querySelector("#jivoCallback4").onclick = function jivo_onLoadCallback() {
+                jivo_api.open({start: 'call'});;
+            }
+            document.querySelector("#jivoCallbackMain").onclick = function jivo_onLoadCallback() {
+                jivo_api.open({start: 'call'});;
+            }
+            document.querySelector("#jivoChat").onclick = function jivo_onLoadCallback() {
+                jivo_api.open({start: 'menu'});;
+            }
         </script>
 
         <noscript><div><img src="https://mc.yandex.ru/watch/93647164" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
