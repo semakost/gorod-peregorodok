@@ -25,6 +25,7 @@
         <link href="assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
         <link rel="stylesheet" href="assets/css/icons.css" />
         <link rel="stylesheet" href="assets/css/tailwind.css" />
+        <script src="//code.jivo.ru/widget/jvnYIhcPS1" async></script>
 
 
     </head>
@@ -1492,6 +1493,7 @@
                 webvisor:true
             });
         </script>
+
         <noscript><div><img src="https://mc.yandex.ru/watch/93647164" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
         <!-- JAVASCRIPTS -->
